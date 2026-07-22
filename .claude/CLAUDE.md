@@ -1,6 +1,10 @@
-# Room in Formation prototype
+# Room in Formation
 
-This is a private, dependency-free static prototype.
+This is a dependency-free static site, published publicly on 2026-07-21 with owner
+authorization. It is served by GitHub Pages from `main` at
+<https://sweetcheeks72.github.io/heatherkingchingaya-design/>.
+
+Publication status changed; the constraints below did not. They still apply.
 
 ## Constraints
 
@@ -10,6 +14,20 @@ This is a private, dependency-free static prototype.
 - Noel imagery may be described only as visual correspondence, moodboard, or spatial visualization; never imply causation or construction.
 - The inquiry is a local interaction prototype and must never claim that a message was sent.
 - Keep the prototype usable at 320px wide and with a keyboard.
+
+## Open decision — inquiry delivery
+
+The inquiry form has no delivery route, and two independent rules enforce that:
+
+- `tests/test_site.py` asserts the form has no `action`/`method`, and bans `fetch`,
+  `XMLHttpRequest`, `sendBeacon`, `localStorage`, `sessionStorage` and WebSocket in `app.js`.
+- The constraints above forbid network requests and external links, and forbid
+  inventing contact details. No contact address exists anywhere in this repo.
+
+A form service (Formspree, Netlify Forms, etc.) requires relaxing both, and is an
+owner decision — not a maintenance change. A `mailto:` link is the only route that
+passes the gate unmodified, but it needs a real address and exposes it to scrapers.
+Until one is chosen, the on-screen "no message was sent" copy must stay accurate.
 
 ## Verification
 

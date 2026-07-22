@@ -1,6 +1,9 @@
-# Room in Formation — static prototype
+# Room in Formation — static site
 
-Private desktop/mobile homepage and inquiry prototype for King Chingaya Design.
+Desktop/mobile homepage and inquiry site for King Chingaya Design.
+
+Deployed publicly on 2026-07-21 with owner authorization, served by GitHub Pages
+from `main` at <https://sweetcheeks72.github.io/heatherkingchingaya-design/>.
 
 ## Run locally
 
@@ -19,5 +22,9 @@ python tests/test_site.py
 node --check app.js
 ```
 
-The inquiry never sends or stores data. Public release is not authorized by this prototype.
+## Inquiry status
+
+The inquiry form never sends or stores data. It previews the submission locally and
+says so on screen. A verified delivery route is still required — see the open decision
+in `.claude/CLAUDE.md`.
 
