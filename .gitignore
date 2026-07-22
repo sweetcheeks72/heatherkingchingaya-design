@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.server.pid
+
+# Throwaway browser profiles from local verification runs
+verification/edge-profile-*/
+

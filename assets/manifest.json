@@ -1,0 +1,41 @@
+{
+  "status": "private-prototype-evidence-assets",
+  "assets": {
+    "dining-study.png": {
+      "sha256": "C0DD495EC43EECDF2EFDCDC84A383B383802135098D1807EBC40FB6765EF1B34",
+      "origin": "candidates/dining-6.png",
+      "operation": "exact copy"
+    },
+    "hero-desktop.png": {
+      "sha256": "84347F04B4AA50A1616D3A663BD9C9D1D91BFC1C9F6DBFF82C08B318CA83D1E4",
+      "origin": "output/room-first-desktop-1440x900.png",
+      "operation": "crop 0,62,1440,702"
+    },
+    "hero-mobile.png": {
+      "sha256": "A0C806AB20BF2C872133EE76AF7FCABABCF322F9F39767E67F3645D9B9AAB285",
+      "origin": "output/room-first-mobile-390x844.png",
+      "operation": "crop 0,52,390,644"
+    },
+    "hero-reflow.png": {
+      "sha256": "8B5AE1275B136E25C7E6CDDFBCED1842227E7132A74331F246274E1FDD6C1B68",
+      "origin": "output/room-first-reflow-320x844.png",
+      "operation": "crop 0,52,320,644"
+    },
+    "noel-bathroom.png": {
+      "sha256": "E65BC4D5BE487E78471BFDDD237842A91583BE3994C204619DEE458E545F3E0F",
+      "origin": "candidates/noel-bathroom.png",
+      "operation": "exact copy"
+    },
+    "noel-moodboard-crop.png": {
+      "sha256": "097983C574674A6A3B27D427BAFD497C0CC7BF4165908C8C4E2325F3C0199636",
+      "origin": "noel-moodboard.png",
+      "operation": "crop 197,128,881,876"
+    },
+    "noel-visualization-crop.png": {
+      "sha256": "5462AF13550E42597C90FDC5A9B30560738C0CC04AFB5815912F8BF06FB429CD",
+      "origin": "tmp/pdfs/noel-render.png",
+      "operation": "crop 44,280,690,1040"
+    }
+  }
+}
+
