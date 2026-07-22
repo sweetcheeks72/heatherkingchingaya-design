@@ -45,8 +45,17 @@ try {
       message.error ? handlers.reject(new Error(message.error.message)) : handlers.resolve(message.result);
     } else events.push(message);
   });
-  const send = (method, params = {}) => new Promise((resolve, reject) => {
-    const id = ++commandId; pending.set(id, { resolve, reject }); socket.send(JSON.stringify({ id, method, params }));
+  // Every command is bounded. Without this a single unanswered CDP command leaves an
+  // unsettled top-level await, and the run dies with a bare exit 13 naming nothing.
+  const send = (method, params = {}, timeoutMs = 30000) => new Promise((resolve, reject) => {
+    const id = ++commandId;
+    const timer = setTimeout(() => {
+      pending.delete(id);
+      reject(new Error(`CDP command timed out after ${timeoutMs}ms: ${method}`));
+    }, timeoutMs);
+    const settle = (fn) => (value) => { clearTimeout(timer); fn(value); };
+    pending.set(id, { resolve: settle(resolve), reject: settle(reject) });
+    socket.send(JSON.stringify({ id, method, params }));
   });
   async function evaluate(expression) {
     const result = await send("Runtime.evaluate", { expression, awaitPromise: true, returnByValue: true });
@@ -57,7 +66,29 @@ try {
     await send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: 1, mobile: width <= 700 });
     events.length = 0; await send("Page.navigate", { url });
     for (let index = 0; index < 100 && !events.some((entry) => entry.method === "Page.loadEventFired"); index += 1) await wait(50);
-    await evaluate("Promise.all([...document.images].map(image => image.complete ? true : new Promise(resolve => { image.addEventListener('load', resolve, {once:true}); image.addEventListener('error', resolve, {once:true}); })))");
+    // Images marked loading="lazy" sit far below the fold on this page and never fire a
+    // load event, so an unbounded Promise.all here never settles and the run dies with
+    // exit 13. Walk the document to trigger them, then bound the remaining wait.
+    // Scrolling must be instant: smooth scrolling would not reach each step in time.
+    await evaluate(`(async () => {
+      const step = window.innerHeight;
+      const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      for (let y = 0; y < document.documentElement.scrollHeight; y += step) {
+        window.scrollTo({ top: y, behavior: 'instant' });
+        await wait(60);
+      }
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      await wait(80);
+      const pending = [...document.images].filter((image) => !image.complete || image.naturalWidth === 0);
+      await Promise.race([
+        Promise.all(pending.map((image) => new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        }))),
+        wait(8000)
+      ]);
+      return true;
+    })()`);
   }
   async function screenshot(name) {
     const result = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false, fromSurface: true });
@@ -76,16 +107,18 @@ try {
     const metrics = await evaluate(`(() => {
       const media = document.querySelector('.hero-media').getBoundingClientRect();
       const heroImage = document.querySelector('.hero-media img');
-      const actions = [...document.querySelectorAll('a, button')].filter(node => !node.hidden && getComputedStyle(node).display !== 'none').map(node => ({tag: node.tagName, height: node.getBoundingClientRect().height}));
-      return { width: innerWidth, height: innerHeight, scrollWidth: document.documentElement.scrollWidth, mediaHeight: media.height, mediaRatio: media.height / innerHeight, heroSource: heroImage.currentSrc.split('/').pop(), h1: document.querySelector('h1').textContent.replace(/\\s+/g, ' ').trim(), imagesLoaded: [...document.images].every(image => image.complete && image.naturalWidth > 0), brokenAnchors: [...document.querySelectorAll('a[href^="#"]')].filter(link => !document.querySelector(link.hash)).map(link => link.hash), tinyActions: actions.filter(item => item.height < 30), documentHeight: document.documentElement.scrollHeight };
+      const actions = [...document.querySelectorAll('a, button')].filter(node => node.getClientRects().length > 0).map(node => ({tag: node.tagName, label: (node.innerText || '').replace(/\\s+/g, ' ').trim().slice(0, 24), height: node.getBoundingClientRect().height}));
+      return { width: innerWidth, height: innerHeight, scrollWidth: document.documentElement.scrollWidth, clientWidth: document.documentElement.clientWidth, mediaHeight: media.height, mediaRatio: media.height / innerHeight, heroSource: heroImage.currentSrc.split('/').pop(), h1: document.querySelector('h1').innerText.replace(/\\s+/g, ' ').trim(), imagesLoaded: [...document.images].every(image => image.complete && image.naturalWidth > 0), brokenAnchors: [...document.querySelectorAll('a[href^="#"]')].filter(link => !document.querySelector(link.hash)).map(link => link.hash), tinyActions: actions.filter(item => item.height < 44), documentHeight: document.documentElement.scrollHeight };
     })()`);
-    check(metrics.scrollWidth === viewport.width, `${viewport.name}: horizontal overflow (${metrics.scrollWidth}px).`);
+    // Compare against clientWidth, not innerWidth: innerWidth includes the classic
+    // scrollbar, so an equality check against it fails on every scrollable page.
+    check(metrics.scrollWidth <= metrics.clientWidth, `${viewport.name}: horizontal overflow (content ${metrics.scrollWidth}px in ${metrics.clientWidth}px).`);
     check(metrics.mediaRatio >= 0.70, `${viewport.name}: room image lost first-frame dominance (${metrics.mediaRatio}).`);
     check(metrics.heroSource === viewport.source, `${viewport.name}: incorrect hero source (${metrics.heroSource}).`);
     check(metrics.h1 === "Interior design for the way you live, work, and gather.", `${viewport.name}: hero heading drifted.`);
     check(metrics.imagesLoaded, `${viewport.name}: an image failed to load.`);
     check(metrics.brokenAnchors.length === 0, `${viewport.name}: broken internal navigation.`);
-    check(metrics.tinyActions.length === 0, `${viewport.name}: undersized action target.`);
+    check(metrics.tinyActions.length === 0, `${viewport.name}: undersized action target (44px minimum): ${metrics.tinyActions.map((item) => `${item.label || item.tag} ${Math.round(item.height)}px`).join(', ')}.`);
     await screenshot(`${viewport.name}-first-frame.png`); results.push({ viewport: `${viewport.width}x${viewport.height}`, ...metrics });
   }
 
@@ -100,7 +133,7 @@ try {
     form.requestSubmit(); await new Promise(resolve => setTimeout(resolve, 0));
     const reviewVisible = !document.querySelector('#review-panel').hidden; const summary = document.querySelector('#review-summary').innerText;
     document.querySelector('#edit-inquiry').click(); const editVisible = !document.querySelector('#form-fields').hidden; form.requestSubmit(); document.querySelector('#confirm-inquiry').click();
-    return { firstError, firstFocus, reviewVisible, summary, editVisible, confirmationVisible: !document.querySelector('#confirmation-panel').hidden, confirmation: document.querySelector('#confirmation-panel').innerText, formAction: form.getAttribute('action'), localStorageLength: localStorage.length, sessionStorageLength: sessionStorage.length, scrollWidth: document.documentElement.scrollWidth, width: innerWidth };
+    return { firstError, firstFocus, reviewVisible, summary, editVisible, confirmationVisible: !document.querySelector('#confirmation-panel').hidden, confirmation: document.querySelector('#confirmation-panel').innerText, formAction: form.getAttribute('action'), localStorageLength: localStorage.length, sessionStorageLength: sessionStorage.length, scrollWidth: document.documentElement.scrollWidth, clientWidth: document.documentElement.clientWidth, width: innerWidth };
   })()`);
   check(interaction.firstError === "Choose a project type.", "Inquiry validation did not explain the first error.");
   check(interaction.firstFocus === "projectType", "Inquiry validation did not focus the first invalid field.");
@@ -109,7 +142,7 @@ try {
   check(interaction.confirmationVisible && interaction.confirmation.includes("No message was sent"), "Inquiry confirmation was not transparent.");
   check(interaction.formAction === null, "Inquiry unexpectedly gained a delivery action.");
   check(interaction.localStorageLength === 0 && interaction.sessionStorageLength === 0, "Inquiry data was persisted.");
-  check(interaction.scrollWidth === interaction.width, "Inquiry state caused mobile overflow.");
+  check(interaction.scrollWidth <= interaction.clientWidth, "Inquiry state caused mobile overflow.");
   await screenshot("mobile-inquiry-confirmation.png");
   const browserErrors = events.filter((entry) => entry.method === "Runtime.exceptionThrown" || (entry.method === "Log.entryAdded" && ["error", "warning"].includes(entry.params?.entry?.level)));
   check(browserErrors.length === 0, `Browser reported ${browserErrors.length} errors or warnings.`);

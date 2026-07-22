@@ -110,7 +110,17 @@ def main() -> int:
 
     for transport in ("fetch(", "xmlhttprequest", "sendbeacon", "localstorage", "sessionstorage", "websocket"):
         check(transport not in JS.lower(), f"The inquiry contains a disallowed data path: {transport}")
-    check("animation:" not in CSS.lower() and "transition:" not in CSS.lower(), "Motion is out of scope for the static gate.")
+    lower_css = CSS.lower()
+    if "animation:" in lower_css or "transition:" in lower_css:
+        check("@media (prefers-reduced-motion: no-preference)" in lower_css, "Motion must be opt-in behind prefers-reduced-motion: no-preference.")
+        reduce_block = re.search(r"@media \(prefers-reduced-motion: reduce\)\s*\{(.*?)\n\}", CSS, flags=re.DOTALL)
+        check(reduce_block is not None, "Motion requires a prefers-reduced-motion: reduce escape block.")
+        reduced = reduce_block.group(1).lower()
+        check("animation: none" in reduced and "transition: none" in reduced, "The reduce block must disable animation and transition.")
+        check("scroll-behavior: auto" in reduced, "The reduce block must restore instant scrolling.")
+        before_optin = lower_css.split("@media (prefers-reduced-motion: no-preference)")[0]
+        check(".reveal" not in before_optin, "Reveal states must live inside the motion opt-in so content stays visible without motion or JS.")
+        check("motion-ready" in JS.lower(), "Reveal styling must be gated on a class the script adds, so content is never hidden when the script fails.")
     check("@import" not in CSS.lower(), "External style imports are not allowed.")
 
     ratio = (luminance("#211f1b") + 0.05) / (luminance("#eeeae2") + 0.05)

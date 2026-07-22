@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "browser": "Microsoft Edge headless via CDP",
+  "url": "http://127.0.0.1:4173/",
+  "viewports": [
+    {
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "mediaHeight": 639.890625,
+      "mediaRatio": 0.7109895833333333,
+      "heroSource": "hero-desktop.png",
+      "h1": "Interior design for the way you live, work, and gather.",
+      "imagesLoaded": true,
+      "brokenAnchors": [],
+      "tinyActions": [],
+      "documentHeight": 10573
+    },
+    {
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "mediaHeight": 591.96875,
+      "mediaRatio": 0.7013847748815166,
+      "heroSource": "hero-mobile.png",
+      "h1": "Interior design for the way you live, work, and gather.",
+      "imagesLoaded": true,
+      "brokenAnchors": [],
+      "tinyActions": [],
+      "documentHeight": 11037
+    },
+    {
+      "viewport": "320x844",
+      "width": 320,
+      "height": 844,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "mediaHeight": 591.96875,
+      "mediaRatio": 0.7013847748815166,
+      "heroSource": "hero-reflow.png",
+      "h1": "Interior design for the way you live, work, and gather.",
+      "imagesLoaded": true,
+      "brokenAnchors": [],
+      "tinyActions": [],
+      "documentHeight": 11092
+    }
+  ],
+  "inquiry": {
+    "firstError": "Choose a project type.",
+    "firstFocus": "projectType",
+    "reviewVisible": true,
+    "summary": "PROJECT TYPE\nResidential\nSUPPORT\nFurnishing or styling\nINVESTMENT RANGE\n$500–$1,500\nNAME\nPrototype Reviewer\nEMAIL\nreview@example.com\nPROJECT LOCATION\nDallas, TX\nSPACE NOTES\nA warm room with accessible circulation.",
+    "editVisible": true,
+    "confirmationVisible": true,
+    "confirmation": "PREVIEW STATE\n\nInquiry preview ready.\n\nNo message was sent and no information was stored. A verified delivery route is required before release.\n\nSTART OVER",
+    "formAction": null,
+    "localStorageLength": 0,
+    "sessionStorageLength": 0,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "width": 390
+  },
+  "browserErrors": []
+}

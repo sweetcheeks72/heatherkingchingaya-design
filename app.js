@@ -1,6 +1,40 @@
 (() => {
   "use strict";
 
+  // Progressive enhancement: scroll-reveal is applied only when the visitor has not
+  // asked for reduced motion and IntersectionObserver exists. The hero is deliberately
+  // excluded so the largest paint is never delayed or shifted.
+  if (!("IntersectionObserver" in window)) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  const targets = [...document.querySelectorAll(
+    ".section-heading, .correspondence figure, .wide-study, .room-chapter, .chapter-list article, .service-list article, .about-grid, .philosophy-inner, .inquiry-grid"
+  )];
+  if (!targets.length) return;
+
+  document.documentElement.classList.add("motion-ready");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.04 });
+
+  const fold = window.innerHeight;
+  targets.forEach((target) => {
+    target.classList.add("reveal");
+    // Anything already on screen when the script runs starts revealed. Without this,
+    // applying the class would transition visible content out and straight back in.
+    if (target.getBoundingClientRect().top < fold) target.classList.add("is-visible");
+    else observer.observe(target);
+  });
+})();
+
+(() => {
+  "use strict";
+
   const form = document.querySelector("#inquiry-form");
   if (!form) return;
 

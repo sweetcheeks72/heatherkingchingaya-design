@@ -9,7 +9,12 @@ Publication status changed; the constraints below did not. They still apply.
 ## Constraints
 
 - Preserve live HTML text and accessible semantics.
-- Do not add animation, tracking, network requests, external fonts, or external links.
+- Do not add tracking, network requests, external fonts, or external links.
+- Motion is permitted as of 2026-07-21 by owner ruling, under conditions the gate enforces:
+  every motion rule lives inside `@media (prefers-reduced-motion: no-preference)`; a
+  `@media (prefers-reduced-motion: reduce)` block disables animation, transition and smooth
+  scrolling; and reveal states are gated on the `motion-ready` class that `app.js` adds, so
+  content is never hidden when the script fails. Do not add motion outside that structure.
 - Do not invent project narratives, outcomes, credits, contact details, or social URLs.
 - Noel imagery may be described only as visual correspondence, moodboard, or spatial visualization; never imply causation or construction.
 - The inquiry is a local interaction prototype and must never claim that a message was sent.

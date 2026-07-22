@@ -55,6 +55,8 @@ button { cursor: pointer; }
 }
 
 .wordmark {
+  min-height: 44px;
+  justify-content: center;
   display: inline-flex;
   flex-direction: column;
   font-weight: 700;
@@ -203,10 +205,10 @@ footer { padding-block: 64px; color: var(--cream); background: var(--ink); }
 
 @media (max-width: 560px) {
   :root { --gutter: 20px; }
-  .site-header { padding-block: 11px; }
-  .site-header nav { max-width: 230px; }
-  .site-header nav a { min-height: 30px; }
-  .site-header nav a:nth-child(4) { display: none; }
+  .site-header { flex-wrap: wrap; align-items: center; gap: 2px 16px; padding-block: 9px; }
+  .site-header .wordmark { min-height: 44px; flex-direction: row; gap: .38em; align-items: center; }
+  .site-header nav { width: 100%; max-width: none; justify-content: space-between; gap: 0 14px; }
+  .site-header nav a { min-height: 44px; letter-spacing: .05em; }
   .hero { grid-template-rows: 70.14svh auto; }
   .hero-copy { padding-top: 20px; padding-bottom: 26px; }
   h1 { font-size: clamp(36px, 11.4vw, 48px); }
@@ -227,5 +229,35 @@ footer { padding-block: 64px; color: var(--cream); background: var(--ink); }
 
 @media (prefers-contrast: more) {
   :root { --line: #5e5952; }
+}
+
+/* Motion. Opt-in only: every rule below is inert unless the visitor has expressed
+   no motion preference AND app.js has added .motion-ready. Content is never hidden
+   by CSS alone, so a script failure degrades to the static page rather than a blank one. */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+
+  .motion-ready .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity .65s ease-out, transform .65s ease-out;
+  }
+  .motion-ready .reveal.is-visible { opacity: 1; transform: none; }
+
+  .text-link, .button-link, .primary-button, .secondary-button {
+    transition: background-color .22s ease, color .22s ease, border-color .22s ease;
+  }
+  .choice-grid span, .check-list span { transition: background-color .18s ease, border-color .18s ease, color .18s ease; }
+  .field-row input, textarea { transition: border-color .18s ease; }
+  .skip-link { transition: transform .18s ease-out; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .motion-ready .reveal { opacity: 1; transform: none; }
 }
 
