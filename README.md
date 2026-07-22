@@ -22,6 +22,15 @@ python tests/test_site.py
 node --check app.js
 ```
 
+With the local server running on port 4173, also run the browser gate. It renders the
+page in headless Edge at 1440, 390 and 320, checks hero art direction, overflow, image
+loading, 44px action targets and the full inquiry path, and writes screenshots plus
+`verification/browser-report.json`:
+
+```powershell
+node tests/browser_probe.mjs
+```
+
 ## Inquiry status
 
 The inquiry form never sends or stores data. It previews the submission locally and

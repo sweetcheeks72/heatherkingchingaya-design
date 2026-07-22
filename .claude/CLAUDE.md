@@ -36,5 +36,16 @@ Until one is chosen, the on-screen "no message was sent" copy must stay accurate
 
 ## Verification
 
-Run `python tests/test_site.py` and `node --check app.js` before handoff.
+Run all three before handoff:
+
+- `python tests/test_site.py` — static structure, evidence claims, motion guard, asset hashes.
+- `node --check app.js`
+- `node tests/browser_probe.mjs` — renders at 1440/390/320 in headless Edge and checks hero
+  art direction, horizontal overflow, image loading, 44px action targets and the inquiry path.
+  Needs a local server on 4173 (`python -m http.server 4173`).
+
+The browser gate is authoritative for anything layout- or viewport-dependent. Do not
+substitute a scripted DOM probe in an automation browser: if the page is not being
+composited, CSS transitions stay frozen at their start value and IntersectionObserver
+never fires, which reads as broken motion when the motion is fine.
 
