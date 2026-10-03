@@ -1,0 +1,35 @@
+{
+  "source": {
+    "library_file_id": "libfile_c995d2cdade88191b4ccdd1534fec23e",
+    "file_id": "file_0000000073ac8230acaff44ec5c6f5fb",
+    "filename": "Feedback 2.pdf",
+    "version": 0,
+    "sha256": "1e77c5cda44d416d86a21a5602856c9d59fe14cbccb6c0e6a20bd17a8577af8e"
+  },
+  "assets": {
+    "restaurant-window.png": {
+      "source_page": 2,
+      "source_image": 2,
+      "width": 1597,
+      "height": 1291,
+      "sha256": "27b8b8e7b58ec4e8e17c656020166b9583c03fe015d1bc1c1e04dca9d4317da5",
+      "operation": "Original embedded PNG extracted from supplied PDF without resizing or retouching"
+    },
+    "restaurant-booths.png": {
+      "source_page": 2,
+      "source_image": 3,
+      "width": 1721,
+      "height": 1252,
+      "sha256": "2c15b5863cb85b2c9dae2d1234bb18053c90646e6d176a8e9d66c3d52fdefe4c",
+      "operation": "Original embedded PNG extracted from supplied PDF without resizing or retouching"
+    },
+    "restaurant-counter.png": {
+      "source_page": 3,
+      "source_image": 1,
+      "width": 1000,
+      "height": 727,
+      "sha256": "69b2ffd35b1854720ed5a955ae7257bec7026a25942cb8fe34a791011963caf7",
+      "operation": "Original embedded PNG extracted from supplied PDF without resizing or retouching"
+    }
+  }
+}

@@ -6,7 +6,7 @@
   const main = document.querySelector('#main');
   const footer = document.querySelector('#site-footer');
   const enter = document.querySelector('.enter-button');
-  const entryLinks = [enter, document.querySelector('.enter-map')];
+  const entryLinks = [enter, document.querySelector('.enter-plan')];
   const motion = document.querySelector('.motion-toggle');
   let entering = false;
   let entryTimer;
