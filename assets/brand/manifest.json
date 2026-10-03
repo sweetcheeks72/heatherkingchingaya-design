@@ -1,0 +1,29 @@
+{
+  "jasmine-vines-v1.png": {
+    "source": "Built-in image_gen tool, generated for this task",
+    "sha256": "f734c989778db6688070e29e97e7229296c471a01352c18da17bb54da81b3f63",
+    "transparent": true
+  },
+  "dallas-map.jpeg": {
+    "source": "Original Website Details PDF supplied Dallas map, extracted image inspiration-01.jpeg, copied without visual alterations",
+    "sha256": "b333cd2003e3330f1d204f557bafad7764a687b9886a1a71bd7ceadad2c67ffc"
+  },
+  "gallery_selection": {
+    "review_image_numbers": [
+      1,
+      2,
+      8,
+      11,
+      14,
+      18
+    ],
+    "filenames": [
+      "architectural-model.webp",
+      "sunken-living-room.webp",
+      "hospitality-elevation.webp",
+      "bedroom-terrace.webp",
+      "bedroom-artwork.webp",
+      "bathroom.webp"
+    ]
+  }
+}
