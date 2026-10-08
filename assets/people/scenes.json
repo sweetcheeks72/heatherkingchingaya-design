@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "duration": 8.8,
+  "scenes": [
+    {
+      "id": "study-1",
+      "source": "assets/brief/architectural-model.webp",
+      "width": 1800,
+      "height": 1092,
+      "source_sha256": "37347bcfc083275137887ade64dfb0375d15e3cb6de641cc7d3159ea41e5d957",
+      "description": "Two people walk across the backyard to the existing chairs, turn and sit down.",
+      "actors": [
+        {
+          "id": "hero-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/hero-nathan-walk-turn.png",
+          "metadata": "assets/people/scenes/hero-nathan-walk-turn.json",
+          "position": [
+            1163.189,
+            729.829
+          ],
+          "anchor": "seat",
+          "body_height": 85.605,
+          "travel": [
+            -189.189,
+            -21.829
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 12,
+            "ry": 3,
+            "opacity": 0.12,
+            "rotate": 15
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1800 V 1092 H 1490 L 1250 966 L 1153 883 L 815 741 L 0 400 Z",
+          "motion_note": "Walk together with conversational glances; separate turning steps, then both shoes planted while pelvis moves backward and down onto the chair; settled hold.",
+          "duration": 8.8,
+          "delay": 0
+        },
+        {
+          "id": "hero-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/hero-carla-walk-turn.png",
+          "metadata": "assets/people/scenes/hero-carla-walk-turn.json",
+          "position": [
+            1134.741,
+            757.124
+          ],
+          "anchor": "seat",
+          "body_height": 85.399,
+          "travel": [
+            -191.741,
+            -22.124
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 12,
+            "ry": 3,
+            "opacity": 0.12,
+            "rotate": 15
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1800 V 1092 H 1490 L 1250 966 L 1153 883 L 815 741 L 0 400 Z",
+          "motion_note": "Walk together with conversational glances; separate turning steps, then both shoes planted while pelvis moves backward and down onto the chair; settled hold.",
+          "duration": 8.2,
+          "delay": 0.6
+        }
+      ]
+    },
+    {
+      "id": "study-2",
+      "source": "assets/brief/sunken-living-room.webp",
+      "width": 1778,
+      "height": 1312,
+      "source_sha256": "732783d3c2afde793a738cb70c3f77f07e2662002484923d32bc7a6b392381a3",
+      "description": "Sunken living room with custom modular banquette sofa, brass staircase railing, wood paneled wall, and bookshelf divider.",
+      "actors": [
+        {
+          "id": "sunken-living-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/carla-seated-sofa.png",
+          "metadata": "assets/people/scenes/carla-seated-sofa.json",
+          "position": [
+            1030,
+            895
+          ],
+          "anchor": "seat",
+          "body_height": 365,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.14,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1778 V 1312 H 0 Z M 683 887 C 710 850 802 877 875 912 C 924 941 950 970 916 993 L 903 1050 L 714 982 L 683 940 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.15s; take 8.4s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 8.4,
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "id": "study-3",
+      "source": "assets/brief/hospitality-elevation.webp",
+      "width": 646,
+      "height": 414,
+      "source_sha256": "8f8fdf1fb80d08ea09d3b2c47e28da72c8d6c4f96a586473d037a0352503c51b",
+      "description": "Architectural elevation drawing with dimensional callouts, acoustic ceiling baffle details, and illustrated heron feature wall.",
+      "actors": [
+        {
+          "id": "elevation-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/nathan-standing-idle.png",
+          "metadata": "assets/people/scenes/nathan-standing-idle.json",
+          "position": [
+            170,
+            368
+          ],
+          "anchor": "feet",
+          "body_height": 90,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.12,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "grayscale(1)",
+          "visible_path": null,
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0s; take 6.8s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 6.8,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "id": "study-4",
+      "source": "assets/brief/bedroom-terrace.webp",
+      "width": 1800,
+      "height": 1020,
+      "source_sha256": "1df6949e6ec3a388d0d33849187dd80825fdc7d9536decfb683b2a224c7d9dfc",
+      "description": "Primary bedroom suite with cantilevered glazed terrace overlooking courtyard canopy and horizon.",
+      "actors": [
+        {
+          "id": "terrace-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/carla-standing-terrace.png",
+          "metadata": "assets/people/scenes/carla-standing-terrace.json",
+          "position": [
+            540,
+            640
+          ],
+          "anchor": "feet",
+          "body_height": 290,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.12,
+            "rotate": -10
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": null,
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.35s; take 8s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 8,
+          "delay": 0.35
+        }
+      ]
+    },
+    {
+      "id": "study-5",
+      "source": "assets/brief/bedroom-artwork.webp",
+      "width": 1390,
+      "height": 1010,
+      "source_sha256": "96fceca283d5f7ed2d5a179a2ec9442f78aa0acacefeecab6784b2fd1ac4507f",
+      "description": "Bedroom lounge seating area with monumental graphic artwork, timber low bed frame, and marble cafe table.",
+      "actors": [
+        {
+          "id": "bedroom-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/nathan-seated-bedroom.png",
+          "metadata": "assets/people/scenes/nathan-seated-bedroom.json",
+          "position": [
+            464,
+            457
+          ],
+          "anchor": "seat",
+          "body_height": 250,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.14,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1390 V 1010 H 0 Z M 214 405 C 222 390 398 392 415 417 C 414 449 220 448 214 425 Z M 282 439 L 350 439 L 344 553 L 288 552 Z M 430 438 L 544 429 L 541 444 L 434 458 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.15s; take 8.1s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 8.1,
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "id": "study-6",
+      "source": "assets/brief/bathroom.webp",
+      "width": 1204,
+      "height": 854,
+      "source_sha256": "124eced56cb2489232ad989f0c914e6ab515ee23b273d772d8129e5031cef571",
+      "description": "Symmetric master bathroom with monolithic honed marble trough vanity, wall-mounted bronze fixtures, and full-width mirror.",
+      "actors": [
+        {
+          "id": "bathroom-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/carla-vanity-back.png",
+          "metadata": "assets/people/scenes/carla-vanity-back.json",
+          "position": [
+            350,
+            820
+          ],
+          "anchor": "feet",
+          "body_height": 430,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.14,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": null,
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.3s; take 7.2s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 7.2,
+          "delay": 0.3
+        }
+      ]
+    },
+    {
+      "id": "study-7",
+      "source": "assets/brief/restaurant-window.png",
+      "width": 1597,
+      "height": 1291,
+      "source_sha256": "27b8b8e7b58ec4e8e17c656020166b9583c03fe015d1bc1c1e04dca9d4317da5",
+      "description": "Dining room window tables looking out to landscaped garden, with timber dining chairs and green checkerboard floor.",
+      "actors": [
+        {
+          "id": "restaurant-window-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/carla-seated-talk-right.png",
+          "metadata": "assets/people/scenes/carla-seated-talk-right.json",
+          "position": [
+            392,
+            924
+          ],
+          "anchor": "seat",
+          "body_height": 420,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.14,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1597 V 1291 H 0 Z M 407 872 L 490 822 L 687 822 L 660 872 Z M 551 876 L 575 876 L 575 1074 L 551 1074 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.1s; take 7.6s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 7.6,
+          "delay": 0.1
+        },
+        {
+          "id": "restaurant-window-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/nathan-seated-talk-left.png",
+          "metadata": "assets/people/scenes/nathan-seated-talk-left.json",
+          "position": [
+            729,
+            924
+          ],
+          "anchor": "seat",
+          "body_height": 440,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.14,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1597 V 1291 H 0 Z M 407 872 L 490 822 L 687 822 L 660 872 Z M 551 876 L 575 876 L 575 1074 L 551 1074 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.4s; take 8.4s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 8.4,
+          "delay": 0.4
+        }
+      ]
+    },
+    {
+      "id": "study-8",
+      "source": "assets/brief/restaurant-booths.png",
+      "width": 1721,
+      "height": 1252,
+      "source_sha256": "2c15b5863cb85b2c9dae2d1234bb18053c90646e6d176a8e9d66c3d52fdefe4c",
+      "description": "Intimate dining booths flanked by scenic mural wallpaper, central arched threshold, and checkerboard floor.",
+      "actors": [
+        {
+          "id": "booth-carla",
+          "person": "Carla",
+          "strip": "assets/people/scenes/carla-seated-booth.png",
+          "metadata": "assets/people/scenes/carla-seated-booth.json",
+          "position": [
+            900,
+            882
+          ],
+          "anchor": "seat",
+          "body_height": 385,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.17,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1721 V 1252 H 0 Z M 943 752 L 1090 752 L 1156 812 L 1001 831 Z M 1041 826 L 1090 822 L 1074 1030 L 1059 1030 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.3s; take 8s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 8,
+          "delay": 0.3
+        },
+        {
+          "id": "booth-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/nathan-seated-booth.png",
+          "metadata": "assets/people/scenes/nathan-seated-booth.json",
+          "position": [
+            1210,
+            883
+          ],
+          "anchor": "seat",
+          "body_height": 395,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.17,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": "M 0 0 H 1721 V 1252 H 0 Z M 943 752 L 1090 752 L 1156 812 L 1001 831 Z M 1041 826 L 1090 822 L 1074 1030 L 1059 1030 Z",
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.9s; take 7.6s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 7.6,
+          "delay": 0.9
+        }
+      ]
+    },
+    {
+      "id": "study-9",
+      "source": "assets/brief/restaurant-counter.png",
+      "width": 1000,
+      "height": 727,
+      "source_sha256": "69b2ffd35b1854720ed5a955ae7257bec7026a25942cb8fe34a791011963caf7",
+      "description": "Hospitality host and cashier counter with timber front, curved corner, and illuminated dining room view.",
+      "actors": [
+        {
+          "id": "counter-nathan",
+          "person": "Nathan",
+          "strip": "assets/people/scenes/nathan-counter-idle.png",
+          "metadata": "assets/people/scenes/nathan-counter-idle.json",
+          "position": [
+            620,
+            580
+          ],
+          "anchor": "feet",
+          "body_height": 240,
+          "travel": [
+            0,
+            0
+          ],
+          "move_until": 0.5,
+          "shadow": {
+            "rx": 22,
+            "ry": 5,
+            "opacity": 0.17,
+            "rotate": 0
+          },
+          "opacity": 1,
+          "filter": "none",
+          "visible_path": null,
+          "motion_note": "Reference-led supported pose, captured quiet motion and individual gesture/rest timing. Starts after 0.2s; take 7.6s. Scene illumination matched in Blender using original scan materials.",
+          "duration": 7.6,
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

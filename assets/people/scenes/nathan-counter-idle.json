@@ -1,0 +1,637 @@
+{
+  "file": "nathan-counter-idle.png",
+  "person": "Nathan",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 12.631578947368421,
+  "clip_seconds": 7.6,
+  "body": {
+    "top": 28,
+    "bottom": 460,
+    "left": 79,
+    "right": 240
+  },
+  "visible_body_height": 433,
+  "foot_anchor": 461,
+  "ground_anchor": [
+    165.3,
+    448.5
+  ],
+  "frames": [
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 82,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 31,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 457,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 81,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 30,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 80,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 456,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 457,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 240
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 239
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 460,
+      "left": 79,
+      "right": 237
+    }
+  ],
+  "camera": {
+    "from": [
+      -1.529,
+      -7.986,
+      2.974
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.9
+    ],
+    "ortho_scale": 2.0851,
+    "elevation_deg": 14.07,
+    "px_per_m": 230.2
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Nathan rendered; raw 3D data private",
+  "sha256": "0b626738851d9c2734d29a1c11d67e4105f121955e0cadc2fffb54c7c7dec8e6",
+  "lighting": {
+    "key": [
+      1,
+      0.85,
+      0.65
+    ],
+    "ambient": [
+      1,
+      0.9,
+      0.75
+    ],
+    "energy": 1.5,
+    "fill": 0.7,
+    "exposure": -0.2,
+    "side": 0.5
+  },
+  "pose_kind": "counter",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}

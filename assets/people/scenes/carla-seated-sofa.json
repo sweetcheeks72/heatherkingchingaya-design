@@ -1,0 +1,641 @@
+{
+  "file": "carla-seated-sofa.png",
+  "person": "Carla",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 11.428571428571429,
+  "clip_seconds": 8.4,
+  "body": {
+    "top": 97,
+    "bottom": 460,
+    "left": 66,
+    "right": 253
+  },
+  "visible_body_height": 364,
+  "foot_anchor": 461,
+  "ground_anchor": [
+    130.8,
+    446.2
+  ],
+  "frames": [
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 458,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 460,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 460,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 97,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 98,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 99,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    },
+    {
+      "top": 100,
+      "bottom": 459,
+      "left": 66,
+      "right": 253
+    }
+  ],
+  "camera": {
+    "from": [
+      5.381,
+      -8.074,
+      4.268
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.7
+    ],
+    "ortho_scale": 1.887,
+    "elevation_deg": 20.09,
+    "px_per_m": 254.37
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Carla rendered; raw 3D data private",
+  "sha256": "94b6c8b74787cdcf943e0a1a3c6be9d15a3eb32f64cbebd71ac61bb9dd565cfc",
+  "seat_anchor": [
+    195.7,
+    279.1
+  ],
+  "lighting": {
+    "key": [
+      1,
+      0.86,
+      0.72
+    ],
+    "ambient": [
+      1,
+      0.93,
+      0.83
+    ],
+    "energy": 1.5,
+    "fill": 0.65,
+    "exposure": -0.2,
+    "side": -0.8
+  },
+  "pose_kind": "sofa",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}

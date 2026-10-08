@@ -1,0 +1,641 @@
+{
+  "file": "carla-seated-booth.png",
+  "person": "Carla",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 12.0,
+  "clip_seconds": 8,
+  "body": {
+    "top": 122,
+    "bottom": 460,
+    "left": 63,
+    "right": 256
+  },
+  "visible_body_height": 339,
+  "foot_anchor": 461,
+  "ground_anchor": [
+    209.7,
+    457.3
+  ],
+  "frames": [
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 255
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 65,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 65,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 65,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 122,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 66,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 65,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 65,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 63,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 123,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    },
+    {
+      "top": 124,
+      "bottom": 460,
+      "left": 64,
+      "right": 256
+    }
+  ],
+  "camera": {
+    "from": [
+      -7.864,
+      -5.16,
+      3.363
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.7
+    ],
+    "ortho_scale": 1.887,
+    "elevation_deg": 15.13,
+    "px_per_m": 254.37
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Carla rendered; raw 3D data private",
+  "sha256": "7101f171bfdaec8e3043d0830f7d280ace896f0026e8088a1ee895a8954003ba",
+  "seat_anchor": [
+    107.2,
+    305.0
+  ],
+  "lighting": {
+    "key": [
+      1,
+      0.78,
+      0.55
+    ],
+    "ambient": [
+      1,
+      0.89,
+      0.7
+    ],
+    "energy": 1.2,
+    "fill": 0.65,
+    "exposure": -0.05,
+    "side": 0.7
+  },
+  "pose_kind": "booth",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}

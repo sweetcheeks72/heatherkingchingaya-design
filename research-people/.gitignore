@@ -1,0 +1,12 @@
+source/
+source-carla/
+source-sophia/
+__pycache__/
+*.pyc
+*.fbx
+*.blend
+*.blend1
+*.zip
+**/frames/
+**/assets/
+*.log

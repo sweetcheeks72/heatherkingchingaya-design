@@ -1,0 +1,361 @@
+{
+  "sha256": "7e818f9b69de59ffc4fb49f2567789f9daab9a2eb20f6f7f7237b227191794ce",
+  "files": [
+    {
+      "path": ".claude/CLAUDE.md",
+      "sha256": "04e1e57d9a87bf4d5f9cf28ab167bfa3e8b99b00efd0b4ddd457d218e764501d"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a3a5252ed62e7600a9f3c8e85375a3638115cf6e329ac003fae6453108b5b85a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "23643ed86dac9a0a6047d63fa83ef50767fee303b016a2ed65c905abd3c51212"
+    },
+    {
+      "path": "app.js",
+      "sha256": "0ce12f36cf2171344d79fd9346cdf7da386aa08432ef46e45ccdf303c2935676"
+    },
+    {
+      "path": "assets/brand/dallas-map.jpeg",
+      "sha256": "b333cd2003e3330f1d204f557bafad7764a687b9886a1a71bd7ceadad2c67ffc"
+    },
+    {
+      "path": "assets/brand/entry-floor-plan.svg",
+      "sha256": "4b8b84b1e06113016be688ac7baf7914a3d2957b27a5dd1088db5f7ec79523ce"
+    },
+    {
+      "path": "assets/brand/floor-plan-model.json",
+      "sha256": "fac061be810c49c9cb0196058534268913a85e4f97afa06535858ea48210f9bd"
+    },
+    {
+      "path": "assets/brand/jasmine-prompt.txt",
+      "sha256": "782131c030e6976e3cfbb59911a2882b1c66c24e16d7ccf9d5dcc858e96e8b02"
+    },
+    {
+      "path": "assets/brand/jasmine-vines-v1.png",
+      "sha256": "f734c989778db6688070e29e97e7229296c471a01352c18da17bb54da81b3f63"
+    },
+    {
+      "path": "assets/brand/manifest.json",
+      "sha256": "dc7f332f7c0cdfb254f7ee9deca7f1859c3e2c62a908285e889fcfd4b0aa0cff"
+    },
+    {
+      "path": "assets/brief/architectural-model.webp",
+      "sha256": "37347bcfc083275137887ade64dfb0375d15e3cb6de641cc7d3159ea41e5d957"
+    },
+    {
+      "path": "assets/brief/architectural-section.webp",
+      "sha256": "a64d0bba45959aa4afe599cb3eba5802508fef4f7e7942a168962ef08ff52912"
+    },
+    {
+      "path": "assets/brief/bar-elevation.webp",
+      "sha256": "7bf79836dc5743ee0a60e1670fb10aea3fd78972fdf78fabb16e803ee4e65349"
+    },
+    {
+      "path": "assets/brief/bathroom.webp",
+      "sha256": "124eced56cb2489232ad989f0c914e6ab515ee23b273d772d8129e5031cef571"
+    },
+    {
+      "path": "assets/brief/bedroom-artwork.webp",
+      "sha256": "96fceca283d5f7ed2d5a179a2ec9442f78aa0acacefeecab6784b2fd1ac4507f"
+    },
+    {
+      "path": "assets/brief/bedroom-terrace.webp",
+      "sha256": "1df6949e6ec3a388d0d33849187dd80825fdc7d9536decfb683b2a224c7d9dfc"
+    },
+    {
+      "path": "assets/brief/bedroom-warm-light.webp",
+      "sha256": "5271e3722bed9d91b5c8bfb7c8779982bcba9b6a9d721dc0df7963f7d24de00b"
+    },
+    {
+      "path": "assets/brief/color-material-study.webp",
+      "sha256": "96a088469faebd070731c0051d9b817227c2e73b761ee47668eacb9f8939afb7"
+    },
+    {
+      "path": "assets/brief/dining-elevation.webp",
+      "sha256": "d6549276f1cf7256b728e5e02cb390b14e2d9adb8fcdee6b8a3aca6db775f917"
+    },
+    {
+      "path": "assets/brief/dining-room-detail.webp",
+      "sha256": "09ed3e2863bcf54292ecb0d9eea8ce17bbc0f56a3f3521b91ab93f613f0bfab8"
+    },
+    {
+      "path": "assets/brief/dining-room.webp",
+      "sha256": "d7515be42c4c50022823d41ffc4d399b1be716455582af9e624754585495eee0"
+    },
+    {
+      "path": "assets/brief/feedback-2-manifest.json",
+      "sha256": "c0c8d78fd38bca2c93378801110545b9d595b27290422948f5c1190fb13de482"
+    },
+    {
+      "path": "assets/brief/hospitality-elevation.webp",
+      "sha256": "8f8fdf1fb80d08ea09d3b2c47e28da72c8d6c4f96a586473d037a0352503c51b"
+    },
+    {
+      "path": "assets/brief/hospitality-plan.webp",
+      "sha256": "aff82f790196f928ce9b38afc5450983ed7db41b470c5641636ad8fa56752822"
+    },
+    {
+      "path": "assets/brief/lighting-elevation.webp",
+      "sha256": "8418b12e91deb51d482ee301074359daddf7da8f65b48cfdbb34da1c2a458539"
+    },
+    {
+      "path": "assets/brief/living-room-moodboard.webp",
+      "sha256": "cd08878ad0c3caa20ad6e0a05c57355d78d2c5807212ad5aafc4d7e8cbd76e61"
+    },
+    {
+      "path": "assets/brief/living-room.webp",
+      "sha256": "53e4d831eed4c9270387ab77897b699dabfd74830a9ff598caa34a9d9c0e9fef"
+    },
+    {
+      "path": "assets/brief/manifest.json",
+      "sha256": "e95c4fe512595ebbe73d19e41e3da9e8f16590aaa48964bf50664a8a831338f2"
+    },
+    {
+      "path": "assets/brief/monochrome-dining-room.webp",
+      "sha256": "ef17518ae034cc898c6b15142f7c7c7d258900fa4768517bc57639904447ba27"
+    },
+    {
+      "path": "assets/brief/monochrome-moodboard.webp",
+      "sha256": "96a0d7934170602ba2d39180b351b32bb833bf943663a7a7cf368bc22d7cd69f"
+    },
+    {
+      "path": "assets/brief/natural-material-study.webp",
+      "sha256": "15a3eba03ad6e8f6aad02f53289263fddf19e94f447c8dca4c316e1b9716ea7a"
+    },
+    {
+      "path": "assets/brief/restaurant-booths.png",
+      "sha256": "2c15b5863cb85b2c9dae2d1234bb18053c90646e6d176a8e9d66c3d52fdefe4c"
+    },
+    {
+      "path": "assets/brief/restaurant-counter.png",
+      "sha256": "69b2ffd35b1854720ed5a955ae7257bec7026a25942cb8fe34a791011963caf7"
+    },
+    {
+      "path": "assets/brief/restaurant-window.png",
+      "sha256": "27b8b8e7b58ec4e8e17c656020166b9583c03fe015d1bc1c1e04dca9d4317da5"
+    },
+    {
+      "path": "assets/brief/sunken-living-room.webp",
+      "sha256": "732783d3c2afde793a738cb70c3f77f07e2662002484923d32bc7a6b392381a3"
+    },
+    {
+      "path": "assets/dining-study.png",
+      "sha256": "c0dd495ec43eecdf2efdcdc84a383b383802135098d1807ebc40fb6765ef1b34"
+    },
+    {
+      "path": "assets/fonts/fraunces-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "assets/fonts/fraunces-latin-full-italic.woff2",
+      "sha256": "04a14ea380db53a35a3ec651934b21061234685bb604d30aac82663b5d9e539b"
+    },
+    {
+      "path": "assets/fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-OFL.txt",
+      "sha256": "c27a3c53c3beed7f5c26853afa15991478ff7145d3754a36b0382f84e10c0d03"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-latin-wght-normal.woff2",
+      "sha256": "2ee17598a98d8a59e4df8152d015bec9ab8e4d5672cc0ab42bef806b568e3971"
+    },
+    {
+      "path": "assets/hero-desktop.png",
+      "sha256": "84347f04b4aa50a1616d3a663bd9c9d1d91bfc1c9f6dbff82c08b318ca83d1e4"
+    },
+    {
+      "path": "assets/hero-mobile.png",
+      "sha256": "a0c806ab20bf2c872133ee76af7fcababcf322f9f39767e67f3645d9b9aab285"
+    },
+    {
+      "path": "assets/hero-reflow.png",
+      "sha256": "8b5ae1275b136e25c7e6cddfbced1842227e7132a74331f246274e1fdd6c1b68"
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "ce8c569e2b0e49de8729c04c44403a5377146935089a2259d0ff62f60b26c7f0"
+    },
+    {
+      "path": "assets/noel-bathroom.png",
+      "sha256": "e65bc4d5be487e78471bfddd237842a91583be3994c204619dee458e545f3e0f"
+    },
+    {
+      "path": "assets/noel-moodboard-crop.png",
+      "sha256": "097983c574674a6a3b27d427bafd497c0cc7bf4165908c8c4e2325f3c0199636"
+    },
+    {
+      "path": "assets/noel-visualization-crop.png",
+      "sha256": "5462af13550e42597c90fdc5a9b30560738c0cc04afb5815912f8bf06fb429cd"
+    },
+    {
+      "path": "assets/people/carla-walk-strip.json",
+      "sha256": "026b9315320d4d5abb89ec067f672c133193abd3d01190470d28832a69f93af9"
+    },
+    {
+      "path": "assets/people/carla-walk-strip.png",
+      "sha256": "8239553e84fd41ea8c6b41b086f303551a2092912f1d186d1c703df8f341f470"
+    },
+    {
+      "path": "assets/people/nathan-walk-strip.json",
+      "sha256": "befd3c8d877b9a0d1a1cd21ca0a0bc393e132274a4a6b860e3833d345e2c576f"
+    },
+    {
+      "path": "assets/people/nathan-walk-strip.png",
+      "sha256": "2939434ce2a570860681f3ee5f9107c16cfb7a94997ed8767f8529c0a233420e"
+    },
+    {
+      "path": "assets/people/provenance.json",
+      "sha256": "9b0a50a373141b8b8459bbcecc7de658bbb22334de9a51c8e46d92dbabf23a61"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-booth.json",
+      "sha256": "39aefb9f67c83d7b50bd51ec1020cde52fe5aca066b6b143e020ab2c467828ec"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-booth.png",
+      "sha256": "7101f171bfdaec8e3043d0830f7d280ace896f0026e8088a1ee895a8954003ba"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-sofa.json",
+      "sha256": "ed3febef79744375e59f5cdf7c2788823d293339686bdd6428f75cf916e34c58"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-sofa.png",
+      "sha256": "94b6c8b74787cdcf943e0a1a3c6be9d15a3eb32f64cbebd71ac61bb9dd565cfc"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-talk-right.json",
+      "sha256": "50de3cad1d53d8320d82cacd94373f1e18002a766be4753892628d8e83ba68bc"
+    },
+    {
+      "path": "assets/people/scenes/carla-seated-talk-right.png",
+      "sha256": "e5f39f06e0e28e8e7dcff012daa808c7f8ad1760551c7abf431b03c6faae7955"
+    },
+    {
+      "path": "assets/people/scenes/carla-standing-terrace.json",
+      "sha256": "39d366b53f384359863cd40dbc2375a0446fa190ca142fa78482736a628cce11"
+    },
+    {
+      "path": "assets/people/scenes/carla-standing-terrace.png",
+      "sha256": "a57cf48b23185f2173bc2130e6eafdf448126ad4ae3811d7bbc4831c418333c2"
+    },
+    {
+      "path": "assets/people/scenes/carla-vanity-back.json",
+      "sha256": "b382b03b2132980288d2b5e1d754624878b9e9b650c4f63a3dc7a52ef40525da"
+    },
+    {
+      "path": "assets/people/scenes/carla-vanity-back.png",
+      "sha256": "409a14be6547ccca5c427dbf98daff60b2284dba7a109cc117ce11b9d5bf5f66"
+    },
+    {
+      "path": "assets/people/scenes/hero-carla-walk-turn.json",
+      "sha256": "647a3fb8ba883ef61faf015165c665a8b456ae9de1d2590e7f0b817c4256755c"
+    },
+    {
+      "path": "assets/people/scenes/hero-carla-walk-turn.png",
+      "sha256": "f05e8ebdb54a709f5354a48e44702c892f6a66c2548fcf9e01ddfa0ba23c61b5"
+    },
+    {
+      "path": "assets/people/scenes/hero-nathan-walk-turn.json",
+      "sha256": "3d7c426ba8036ee8320cf1f74e0229c6b29910692355c03ae6c0eb599b19a3c7"
+    },
+    {
+      "path": "assets/people/scenes/hero-nathan-walk-turn.png",
+      "sha256": "1884372b94e8b01b8c65076cdbc35ee366cb6f27d7ac88892279e929405e3417"
+    },
+    {
+      "path": "assets/people/scenes/nathan-counter-idle.json",
+      "sha256": "fab040f5bce2c81aab9df0246be06bac8abf828cc0370395aeabf321871ad70a"
+    },
+    {
+      "path": "assets/people/scenes/nathan-counter-idle.png",
+      "sha256": "0b626738851d9c2734d29a1c11d67e4105f121955e0cadc2fffb54c7c7dec8e6"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-bedroom.json",
+      "sha256": "1fd837dee53dbc1f0a1237146f723d4b502909660a11702e55a219b9945d3678"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-bedroom.png",
+      "sha256": "3177f64c3f89eb0801b85791cd7e5ddcac342da7b4a412e9b3cc86999b2463a3"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-booth.json",
+      "sha256": "5e4d598d8b81f46ce582b9ca638011f805ea3a666836069f307ad56f1c94399c"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-booth.png",
+      "sha256": "17e0b54c4513ee6a79706fadbc39745c6743f42f04597dd884be9d8cd6de78b0"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-talk-left.json",
+      "sha256": "aa92d3a0eff0292d579a455cab47c274b680f71ea6823aa704e55b4cb0764b6d"
+    },
+    {
+      "path": "assets/people/scenes/nathan-seated-talk-left.png",
+      "sha256": "f0576b4f89c3235914cf3f923167439c2676b9fc747de2c33301489ccd717698"
+    },
+    {
+      "path": "assets/people/scenes/nathan-standing-idle.json",
+      "sha256": "76662cacdf703ad947bb527a0bad8ea3abb5d875dc6ab189ea231105e6a801ec"
+    },
+    {
+      "path": "assets/people/scenes/nathan-standing-idle.png",
+      "sha256": "8531e5cde1a8658eb658c25e242e0900c9bc6f62461fcb5948f9ab307dbe48b4"
+    },
+    {
+      "path": "assets/people/scenes/provenance.json",
+      "sha256": "7567735aad7b489e2ad3ee4f0f2dd405df13886293918e6a10c30958fab0dc45"
+    },
+    {
+      "path": "assets/people/scenes.json",
+      "sha256": "de3e6c37f8a251186236e71549df24cfd2dd2ef01929bf670fb8676015daf532"
+    },
+    {
+      "path": "docs/approved-brief.md",
+      "sha256": "9ed917d424f2bb091de4c83fc9d20fc4b98fd2dd9dea62323b9f9f808c5c3c23"
+    },
+    {
+      "path": "docs/floor-plan-design.md",
+      "sha256": "2e112d19aaca5b2a1aebf249b6dbaba4fd78296b5760805c07ef666e2ee5d9fe"
+    },
+    {
+      "path": "floor-plan.html",
+      "sha256": "d7d0ab5d1d67a94fe22b6108f08059bfe22d29fff37cea8a3fd67e392b804e6e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "12ed695ba8300850ab2ab4a80d86f56e5518ccd1a2880e5d1305bf0b2dafa748"
+    },
+    {
+      "path": "scripts/build_floor_plan.py",
+      "sha256": "2f457d63d3e50f7f0e3b4acb9eb47ccbfc7097a07761a0b1c53db14bd3b34e64"
+    },
+    {
+      "path": "scripts/build_scene_overlays.py",
+      "sha256": "7732091d6889c5921932e5e3498ec706a0d43e797c6d7c9000d5904e178e69cf"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "2de93fac1894ffdda9e129b44f7a19263ac137224e77dc2d8fb7c476f847341c"
+    },
+    {
+      "path": "tests/browser_probe.mjs",
+      "sha256": "11a43550a42e536a3541852a64ef6053d60840262f28330a01c510d56cd44a82"
+    },
+    {
+      "path": "tests/test_latest_layout.py",
+      "sha256": "e96c9e0a8be2bd005e1a9274ab033ca332191d08c9a0d6b3a0c44b94d5ca14b9"
+    },
+    {
+      "path": "tests/test_site.py",
+      "sha256": "948c6b3f0ab7b1ce4008723d7644fb9f626e36a747efec3fb89f1dc0053725c3"
+    }
+  ]
+}

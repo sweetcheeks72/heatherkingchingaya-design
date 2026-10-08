@@ -1,0 +1,295 @@
+{
+  "file": "carla-walk-strip.png",
+  "person": "carla",
+  "frame_count": 32,
+  "frame_width": 192,
+  "frame_height": 256,
+  "strip_width": 6144,
+  "strip_height": 256,
+  "fps": 30.0,
+  "source_frames": [
+    10,
+    41
+  ],
+  "clip_seconds": 1.0667,
+  "stride_m_per_clip": 1.298,
+  "body": {
+    "top": 36,
+    "bottom": 240,
+    "left": 31,
+    "right": 161
+  },
+  "visible_body_height": 205,
+  "foot_anchor": 241,
+  "frames": [
+    {
+      "top": 39,
+      "bottom": 239,
+      "left": 40,
+      "right": 146
+    },
+    {
+      "top": 39,
+      "bottom": 240,
+      "left": 36,
+      "right": 141
+    },
+    {
+      "top": 38,
+      "bottom": 238,
+      "left": 33,
+      "right": 136
+    },
+    {
+      "top": 38,
+      "bottom": 236,
+      "left": 33,
+      "right": 131
+    },
+    {
+      "top": 38,
+      "bottom": 233,
+      "left": 36,
+      "right": 126
+    },
+    {
+      "top": 37,
+      "bottom": 231,
+      "left": 41,
+      "right": 124
+    },
+    {
+      "top": 37,
+      "bottom": 230,
+      "left": 47,
+      "right": 121
+    },
+    {
+      "top": 36,
+      "bottom": 230,
+      "left": 54,
+      "right": 118
+    },
+    {
+      "top": 36,
+      "bottom": 231,
+      "left": 63,
+      "right": 121
+    },
+    {
+      "top": 36,
+      "bottom": 232,
+      "left": 73,
+      "right": 125
+    },
+    {
+      "top": 36,
+      "bottom": 232,
+      "left": 70,
+      "right": 128
+    },
+    {
+      "top": 36,
+      "bottom": 232,
+      "left": 66,
+      "right": 129
+    },
+    {
+      "top": 37,
+      "bottom": 232,
+      "left": 61,
+      "right": 135
+    },
+    {
+      "top": 38,
+      "bottom": 233,
+      "left": 57,
+      "right": 147
+    },
+    {
+      "top": 39,
+      "bottom": 234,
+      "left": 52,
+      "right": 157
+    },
+    {
+      "top": 39,
+      "bottom": 234,
+      "left": 47,
+      "right": 161
+    },
+    {
+      "top": 40,
+      "bottom": 234,
+      "left": 43,
+      "right": 159
+    },
+    {
+      "top": 41,
+      "bottom": 234,
+      "left": 39,
+      "right": 155
+    },
+    {
+      "top": 41,
+      "bottom": 234,
+      "left": 34,
+      "right": 149
+    },
+    {
+      "top": 40,
+      "bottom": 232,
+      "left": 31,
+      "right": 143
+    },
+    {
+      "top": 40,
+      "bottom": 231,
+      "left": 31,
+      "right": 138
+    },
+    {
+      "top": 39,
+      "bottom": 231,
+      "left": 34,
+      "right": 133
+    },
+    {
+      "top": 38,
+      "bottom": 232,
+      "left": 38,
+      "right": 128
+    },
+    {
+      "top": 38,
+      "bottom": 232,
+      "left": 44,
+      "right": 122
+    },
+    {
+      "top": 37,
+      "bottom": 233,
+      "left": 52,
+      "right": 117
+    },
+    {
+      "top": 37,
+      "bottom": 234,
+      "left": 61,
+      "right": 121
+    },
+    {
+      "top": 36,
+      "bottom": 234,
+      "left": 72,
+      "right": 125
+    },
+    {
+      "top": 36,
+      "bottom": 235,
+      "left": 74,
+      "right": 129
+    },
+    {
+      "top": 36,
+      "bottom": 235,
+      "left": 69,
+      "right": 132
+    },
+    {
+      "top": 36,
+      "bottom": 236,
+      "left": 65,
+      "right": 136
+    },
+    {
+      "top": 36,
+      "bottom": 236,
+      "left": 60,
+      "right": 143
+    },
+    {
+      "top": 37,
+      "bottom": 237,
+      "left": 56,
+      "right": 150
+    }
+  ],
+  "facing": "image right, slightly away from the camera",
+  "camera": {
+    "from": [
+      6.021,
+      -7.965,
+      6.826
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.8999999761581421
+    ],
+    "ortho_scale": 1.9765,
+    "elevation_deg": 30.54,
+    "px_per_m": 129.522
+  },
+  "scale": {
+    "locked_to_nathan": true,
+    "reference": "site/assets/people/nathan-walk-strip.json",
+    "px_per_m": 129.522
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 24 samples, film transparent",
+  "source": "Renderpeople free model Carla rigged 001 (rp_carla_rigged_001_u3d.fbx, T-pose rig, own textures unmodified), rendered only; raw model not redistributed",
+  "motion": "Renderpeople free model Nathan animated 003 walking (rp_nathan_animated_003_walking.fbx) frames 10..41 retargeted onto Carla's rig; Nathan himself is not rendered",
+  "source_sha256": {
+    "rp_carla_rigged_001_u3d.fbx": "05d1be335781d381290f06221bc98d74eefacd77805fab8a2560939b586bfc7d",
+    "rp_nathan_animated_003_walking.fbx": "7a7a65df5a382049dd6bbb2d0ecbeba260702191916fbca97de537cf952f97ec"
+  },
+  "retarget": {
+    "method": "per-bone armature-space rotation delta re-based on Carla's rest; basis = rest^-1 @ parent_rest @ parent_pose^-1 @ pose",
+    "source_prefix": "rp_nathan_animated_003_walking_",
+    "matched_bones": 88,
+    "carla_bones": 88,
+    "unmatched_carla_bones": [],
+    "parent_mismatches": [],
+    "translated_bones": [
+      "root",
+      "hip"
+    ],
+    "translation_scale": 0.9686,
+    "self_check_residual": 0.000126
+  },
+  "lowest_point_m": [
+    0.0217,
+    0.0153,
+    0.0176,
+    0.0193,
+    0.0179,
+    0.0175,
+    0.0171,
+    0.0166,
+    0.0163,
+    0.0162,
+    0.0162,
+    0.0166,
+    0.0172,
+    0.0185,
+    0.0214,
+    0.0246,
+    0.0279,
+    0.0154,
+    0.0076,
+    0.0081,
+    0.0084,
+    0.0089,
+    0.009,
+    0.0091,
+    0.0093,
+    0.0097,
+    0.0105,
+    0.0106,
+    0.0118,
+    0.0136,
+    0.0151,
+    0.0163
+  ],
+  "sha256": "8239553e84fd41ea8c6b41b086f303551a2092912f1d186d1c703df8f341f470"
+}

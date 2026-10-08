@@ -2,41 +2,72 @@
   'use strict';
   const root = document.documentElement;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
   const entrance = document.querySelector('#entrance');
   const main = document.querySelector('#main');
   const footer = document.querySelector('#site-footer');
-  const enter = document.querySelector('.enter-button');
-  const entryLinks = [enter, document.querySelector('.enter-plan')];
-  const motion = document.querySelector('.motion-toggle');
+  const plan = document.querySelector('.enter-plan');
+  const entryLinks = [plan].filter(Boolean);
+  const cursor = document.querySelector('.enter-cursor');
   let entering = false;
   let entryTimer;
   root.classList.add('js-ready');
+
+  // Discreet oval "Enter" cursor over the plan. It is aria-hidden decoration with no pointer
+  // events; the plan is the entrance link. It is used only with a fine, hovering pointer
+  // and when motion is allowed, and the native cursor is hidden only while this one is
+  // actually shown (.cursor-live on the entrance).
+  const cursorAllowed = () => !!cursor && finePointer.matches && !reduced.matches && !entering && !entrance.hidden;
+  function hideCursor() {
+    entrance.classList.remove('cursor-live');
+  }
+  function moveCursor(event) {
+    if (event.pointerType !== 'mouse' || !cursorAllowed()) { hideCursor(); return; }
+    const box = entrance.getBoundingClientRect();
+    cursor.style.transform = `translate3d(${Math.round(event.clientX - box.left)}px, ${Math.round(event.clientY - box.top)}px, 0)`;
+    entrance.classList.add('cursor-live');
+  }
+  plan.addEventListener('pointerenter', moveCursor);
+  plan.addEventListener('pointermove', moveCursor);
+  plan.addEventListener('pointerleave', hideCursor);
+  plan.addEventListener('pointercancel', hideCursor);
+  window.addEventListener('blur', hideCursor);
+  finePointer.addEventListener('change', () => { if (!finePointer.matches) hideCursor(); });
+
   function syncMotion() {
     root.classList.toggle('motion-ready', !reduced.matches);
-    motion.hidden = reduced.matches;
+    if (reduced.matches) hideCursor();
   }
   syncMotion();
   reduced.addEventListener('change', syncMotion);
-  motion.addEventListener('click', () => {
-    const paused = root.classList.toggle('motion-paused');
-    motion.setAttribute('aria-pressed', String(paused));
-    motion.innerHTML = paused ? 'Resume motion <span aria-hidden="true">▷</span>' : 'Pause motion <span aria-hidden="true">Ⅱ</span>';
-  });
-  document.addEventListener('visibilitychange', () => root.classList.toggle('document-hidden', document.hidden));
+  // Hidden page: CSS pauses every running animation (.document-hidden), resuming in place when the page returns.
+  const syncHidden = () => root.classList.toggle('document-hidden', document.hidden);
+  syncHidden();
+  document.addEventListener('visibilitychange', syncHidden);
 
-  // Install entry handlers before hiding content. Without JS this is a normal
-  // anchor and the complete website remains readable below the entrance.
+  // Install entry handlers before hiding content. Without JS the plan is a normal
+  // anchor and the header and complete website remain readable below the entrance.
+  // Entrance state (.entry-active on <html>, .is-entrance on <body>): only the floor
+  // plan is shown and the header is hidden. It is only ever set by this script.
+  const setEntryState = (on) => {
+    root.classList.toggle('entry-active', on);
+    document.body.classList.toggle('is-entrance', on);
+  };
+  const inEntry = () => root.classList.contains('entry-active') && !entering;
+  const isEntryHash = (hash) => !hash || hash === '#top' || hash === '#entrance';
   function showSite(target = '#main', animated = false) {
+    hideCursor();
     const finish = () => {
       clearTimeout(entryTimer);
       main.hidden = false; footer.hidden = false; entrance.hidden = true;
-      root.classList.remove('entry-active', 'entering'); entering = false;
+      setEntryState(false); root.classList.remove('entering'); entering = false;
       const destination = document.getElementById(target.slice(1)) || main;
       destination.setAttribute('tabindex', '-1');
       destination.focus({ preventScroll: true });
       destination.scrollIntoView({ behavior: 'instant', block: 'start' });
     };
-    if (animated && !reduced.matches && !root.classList.contains('motion-paused')) {
+    // The short zoom/fade runs only when motion is allowed (CSS gates it on .motion-ready).
+    if (animated && root.classList.contains('motion-ready') && !reduced.matches) {
       entering = true; root.classList.add('entering'); entryTimer = setTimeout(finish, 550);
     } else finish();
   }
@@ -51,10 +82,29 @@
     });
   });
   window.addEventListener('hashchange', () => {
-    if (main.hidden && location.hash && location.hash !== '#top') showSite(location.hash);
+    if (main.hidden && !isEntryHash(location.hash)) showSite(location.hash);
   });
-  if (!location.hash || location.hash === '#top') {
-    root.classList.add('entry-active'); main.hidden = true; footer.hidden = true;
+  // Leaving the entrance by intent: tabbing past the plan, scrolling down with a
+  // wheel or touch swipe, or the usual scroll keys all enter the site.
+  document.addEventListener('keydown', (event) => {
+    if (!inEntry() || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.key === 'Tab') {
+      if (!event.shiftKey && document.activeElement === plan) { event.preventDefault(); showSite('#main', true); }
+      return;
+    }
+    if (['PageDown', 'ArrowDown', 'End', ' '].includes(event.key) && !event.target.closest?.('button, input, textarea, select')) {
+      event.preventDefault(); showSite('#main', true);
+    }
+  });
+  window.addEventListener('wheel', (event) => { if (inEntry() && event.deltaY > 0) showSite('#main', true); }, { passive: true });
+  let touchStartY = null;
+  window.addEventListener('touchstart', (event) => { touchStartY = event.touches[0] ? event.touches[0].clientY : null; }, { passive: true });
+  window.addEventListener('touchmove', (event) => {
+    if (!inEntry() || touchStartY === null || !event.touches[0]) return;
+    if (touchStartY - event.touches[0].clientY > 40) { touchStartY = null; showSite('#main', true); }
+  }, { passive: true });
+  if (isEntryHash(location.hash)) {
+    setEntryState(true); main.hidden = true; footer.hidden = true;
   } else showSite(location.hash);
 
   const menu = document.querySelector('.menu-button');
@@ -81,20 +131,54 @@
     document.querySelectorAll('.featured-studies .study').forEach((study) => {
       study.classList.add('reveal'); observer.observe(study);
     });
+
+    // Scene people (hero and every gallery study): each generated overlay plays its single sequence once, the first
+    // time it actually intersects the viewport (not on entry or on a timer), so a reader who scrolls down later still
+    // sees it. Keep observing so an offscreen take pauses and resumes in place; scene-active is never removed,
+    // so returning to a finished scene holds its final pose. Hidden pages and covered gallery scenes pause too.
+    const sceneObserver = new IntersectionObserver((entries) => {
+      entries.forEach(({ target, isIntersecting }) => {
+        if (isIntersecting) { target.classList.add('scene-active'); }
+        target.classList.toggle('scene-paused', !isIntersecting);
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.hero-image-stage .scene-overlay, .study-image .scene-overlay').forEach((overlay) => sceneObserver.observe(overlay));
   }
 
+  // Image viewer: shows the title only; the image keeps its descriptive alt text.
   const dialog = document.querySelector('#study-viewer');
   const links = [...document.querySelectorAll('[data-lightbox]')];
   const viewerImage = document.querySelector('#viewer-image');
+  const viewerTitle = document.querySelector('#viewer-title');
+  const viewerCount = document.querySelector('#viewer-count');
+  const viewerStage = document.querySelector('.viewer-stage');
   let activeIndex = 0;
   let opener;
+  const clearViewerScene = () => viewerStage?.querySelectorAll('.scene-overlay').forEach((el) => el.remove());
   function showStudy(index) {
     activeIndex = (index + links.length) % links.length;
     const link = links[activeIndex];
     viewerImage.src = link.getAttribute('href'); viewerImage.alt = link.querySelector('img').alt;
-    document.querySelector('#viewer-title').textContent = link.dataset.title;
-    document.querySelector('#viewer-kind').textContent = link.dataset.kind;
-    document.querySelector('#viewer-count').textContent = `${activeIndex + 1} / ${links.length}`;
+    viewerTitle.textContent = link.dataset.title;
+    viewerCount.textContent = `${activeIndex + 1} / ${links.length}`;
+    // The enlarged view shows the same people: a trusted DOM clone of this study's generated overlay (never markup
+    // built from input) sits over #viewer-image in .viewer-stage; both letterbox identically (object-fit: contain and
+    // xMidYMid meet on the same box). Its ids are re-prefixed so clip paths never collide with the gallery copy, and
+    // opening or changing the image is an explicit request to watch the scene, so the fresh clone replays it once.
+    clearViewerScene();
+    const scene = link.querySelector('svg.scene-overlay');
+    if (scene && viewerStage) {
+      const copy = scene.cloneNode(true);
+      copy.classList.remove('scene-active', 'scene-paused');
+      copy.classList.add('viewer-scene');
+      copy.querySelectorAll('[id]').forEach((el) => { el.id = `viewer-${el.id.replace(/^(?:gallery|hero)-/, '')}`; });
+      copy.querySelectorAll('[clip-path]').forEach((el) => {
+        const ref = el.getAttribute('clip-path').match(/^url\(#(?:gallery|hero)-([\w-]+)\)$/);
+        if (ref) el.setAttribute('clip-path', `url(#viewer-${ref[1]})`);
+      });
+      viewerStage.append(copy);
+      copy.classList.add('scene-active');
+    }
   }
   if (typeof dialog.showModal === 'function') {
     links.forEach((link, index) => link.addEventListener('click', (event) => {
@@ -111,7 +195,8 @@
       const r = dialog.getBoundingClientRect();
       if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close();
     });
-    dialog.addEventListener('close', () => { document.body.classList.remove('viewer-open'); opener?.focus({ preventScroll: true }); });
+    // Closing removes the viewer's clone (its animations stop with it); the gallery overlay keeps its own finished state.
+    dialog.addEventListener('close', () => { clearViewerScene(); document.body.classList.remove('viewer-open'); opener?.focus({ preventScroll: true }); });
   }
 
   const form = document.querySelector('#inquiry-form');

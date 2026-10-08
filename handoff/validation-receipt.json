@@ -1,0 +1,22 @@
+{
+  "website_source_sha256": "7e818f9b69de59ffc4fb49f2567789f9daab9a2eb20f6f7f7237b227191794ce",
+  "website_files": 89,
+  "browser": {
+    "status": "PASS",
+    "checks_passed": 780,
+    "checks_total": 780,
+    "started_at": "2026-10-07T16:19:11.997Z",
+    "engine": "chromium 155.0.8059.39",
+    "sandbox": "chromiumSandbox: true"
+  },
+  "static": "PASS, REQUIRE_PLAN_INTEGRATION=1",
+  "javascript_syntax": "PASS: node --check app.js",
+  "render_contact_audit": "Both actors passed stable-vertex checks, frames 80\u2013160; evidence in research-people/hero-contact-fix/fixed-vertex-audit",
+  "validation_date": "2026-10-07",
+  "transfer_validation": "2026-10-08: all 89 website files match the tested manifest byte-for-byte; no design changes or render runs",
+  "review_clip": {
+    "library_file_id": "libfile_9b1ffa1395948191acf9c244526c26bc",
+    "file_id": "file_00000000dad881f5be0e2ad570d2c446",
+    "url": "https://chatgpt.com/api/library/files/libfile_9b1ffa1395948191acf9c244526c26bc/download"
+  }
+}

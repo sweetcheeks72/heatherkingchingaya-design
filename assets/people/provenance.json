@@ -1,0 +1,61 @@
+{
+  "purpose": "Realistic scanned people for the hero architectural model (user choice, 3 October 2026): two different scanned people with different appearances and skin tones, each rendered from its own licensed Renderpeople scan with its own textures (no skin or clothing recolouring). Only rendered PNG sprites and JSON records live here.",
+  "source_page": "https://renderpeople.com/free-3d-people/",
+  "terms": "https://renderpeople.com/general-terms-and-conditions/",
+  "licence_use": "Free Renderpeople models downloaded directly, no purchase or account. The terms permit rendering for commercial and private use; the raw model data (FBX, textures, .blend) is never redistributed, so it stays in research-people and is not part of the website, Git or any package. Only rendered output is published.",
+  "pipeline": "Blender 4.5 LTS (--background --factory-startup --disable-autoexec --python): research-people/build_people.py renders Nathan, research-people/build_carla.py renders Carla; each writes its strip PNG and its <name>.json metadata, then assigns only its own key in outputs below (the other person's record is round-tripped byte-for-byte). Pillow fallback packer for Nathan: research-people/assemble_people.py",
+  "models": {
+    "nathan-walk-strip.png": {
+      "model": "Nathan animated 003 walking (Renderpeople free 3D people)",
+      "selection": "research-people/selected-model.json",
+      "source_archive": "rp_nathan_animated_003_walking_FBX.zip",
+      "source_archive_path": "research-people/source/rp_nathan_animated_003_walking_FBX.zip",
+      "source_archive_sha256": "db4344b9ea6dd86fa8af0e0eb061d5dd77b13fe8954d4ff1ee812d1ad40be3ce",
+      "source_archive_bytes": 124443363,
+      "motion": "The scan's own walking action (Armature|Take 001|BaseLayer), frames 10-41 of 1-69; hip travel removed per frame so the walk is in place.",
+      "builder": "research-people/build_people.py",
+      "walker": "walker-1 (farther figure, feet at y 710), 16-frame phase offset"
+    },
+    "carla-walk-strip.png": {
+      "model": "Carla rigged 001 (Renderpeople free 3D people)",
+      "selection": "research-people/selected-carla.json",
+      "source_archive": "rp_carla_rigged_001_FBX.zip",
+      "source_archive_path": "research-people/source-carla/rp_carla_rigged_001_FBX.zip",
+      "source_archive_sha256": "a62f27d791d47e51010182f70c58a925e5a6e7e6f80afd188a16723de2ea05b1",
+      "source_archive_bytes": 178741586,
+      "motion": "Carla ships rigged without any animation (research-people/carla-inspection.json: actions []). Nathan's walking action is retargeted onto Carla's rig in Blender; only the motion is borrowed. The mesh, textures and appearance are Carla's own scan, unmodified.",
+      "builder": "research-people/build_carla.py",
+      "walker": "walker-2 (nearer figure, feet at y 735), phase 0"
+    }
+  },
+  "outputs": {
+    "nathan-walk-strip.png": {
+      "sha256": "2939434ce2a570860681f3ee5f9107c16cfb7a94997ed8767f8529c0a233420e",
+      "width": 6144,
+      "height": 256,
+      "frame_count": 32,
+      "frame_width": 192,
+      "frame_height": 256,
+      "source_frames": [
+        10,
+        41
+      ],
+      "metadata": "nathan-walk-strip.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 24 samples, orthographic, RGBA) from the licensed FBX; packed into one strip"
+    },
+    "carla-walk-strip.png": {
+      "sha256": "8239553e84fd41ea8c6b41b086f303551a2092912f1d186d1c703df8f341f470",
+      "width": 6144,
+      "height": 256,
+      "frame_count": 32,
+      "frame_width": 192,
+      "frame_height": 256,
+      "source_frames": [
+        10,
+        41
+      ],
+      "metadata": "carla-walk-strip.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 24 samples, orthographic, RGBA) from the licensed Carla FBX with Nathan's walk retargeted onto her rig; packed into one strip"
+    }
+  }
+}

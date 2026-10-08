@@ -1,0 +1,74 @@
+{
+  "source_frames": [
+    10,
+    41
+  ],
+  "source_intervals": 31,
+  "output_source_advances": 95,
+  "walk_frames": 80,
+  "native_cycle_displacement_xy_m": 1.2978025233696344,
+  "native_walk_distance_m": 3.977136765165009,
+  "screen_projection_per_m": [
+    -0.9751758709051773,
+    -0.11252029279675123
+  ],
+  "actors": {
+    "nathan": {
+      "retarget_leg_scale": 1,
+      "source_px_per_m": 48.78,
+      "travel": [
+        -189.189,
+        -21.829
+      ],
+      "position": [
+        1163.189,
+        729.829
+      ],
+      "final_hip": [
+        974,
+        708
+      ],
+      "max_support_sole_z_m": 2.057541503856699e-07,
+      "min_support_sole_z_m": -1.6623793955977684e-07,
+      "max_planted_ankle_error_m": 2.981163415870451e-07,
+      "max_planted_foot_matrix_difference": 2.086162567138672e-07,
+      "strip_sha256": "1884372b94e8b01b8c65076cdbc35ee366cb6f27d7ac88892279e929405e3417",
+      "strip_size": [
+        30720,
+        256
+      ]
+    },
+    "carla": {
+      "retarget_leg_scale": 0.9686127235151037,
+      "source_px_per_m": 51.04,
+      "travel": [
+        -191.741,
+        -22.124
+      ],
+      "position": [
+        1134.741,
+        757.124
+      ],
+      "final_hip": [
+        943,
+        735
+      ],
+      "max_support_sole_z_m": 2.570955294316224e-07,
+      "min_support_sole_z_m": -7.47532913347726e-08,
+      "max_planted_ankle_error_m": 2.421152116249788e-07,
+      "max_planted_foot_matrix_difference": 2.086162567138672e-07,
+      "strip_sha256": "f05e8ebdb54a709f5354a48e44702c892f6a66c2548fcf9e01ddfa0ba23c61b5",
+      "strip_size": [
+        30720,
+        256
+      ]
+    }
+  },
+  "regression_limits": {
+    "maximum_support_sole_gap_m": 0.005,
+    "maximum_floor_penetration_m": 0.002,
+    "maximum_planted_ankle_error_m": 0.003,
+    "maximum_planted_foot_matrix_difference": 0.0001
+  },
+  "scope_note": "Floor/contact constraints measured on rendered character geometry; raster chairs have no collision mesh. Seat acceptance requires scene composite review."
+}

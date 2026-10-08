@@ -1,0 +1,314 @@
+{
+  "purpose": "Animated people for all nine study scenes (user request, October 2026): realistic diverse scans (Nathan and Carla) with distinct appearances and skin tones, rendered from licensed Renderpeople scans with original textures (no skin recoloring). Strips cover hero backyard crossing with walk-then-chat transition, plus interior seated and standing conversation/idle profiles across all scenes.",
+  "source_page": "https://renderpeople.com/free-3d-people/",
+  "terms": "https://renderpeople.com/general-terms-and-conditions/",
+  "licence_use": "Free Renderpeople models downloaded directly, no purchase or account. The terms permit rendering for commercial and private use; the raw model data (FBX, textures, .blend) is never redistributed, so it stays in research-people and is not part of the website, Git or any package. Only rendered output is published.",
+  "pipeline": "Blender 4.5.14 LTS (--background --factory-startup --disable-autoexec --python research-people/build_scene_people.py -- [--preview] [--profile <name>] [--all] [--resume])",
+  "models": {
+    "nathan": {
+      "model": "Nathan animated 003 walking (Renderpeople free 3D people)",
+      "selection": "research-people/selected-model.json",
+      "source_archive": "rp_nathan_animated_003_walking_FBX.zip",
+      "source_archive_path": "research-people/source/rp_nathan_animated_003_walking_FBX.zip",
+      "source_archive_sha256": "db4344b9ea6dd86fa8af0e0eb061d5dd77b13fe8954d4ff1ee812d1ad40be3ce",
+      "source_archive_bytes": 124443363,
+      "builder": "research-people/build_scene_people.py"
+    },
+    "carla": {
+      "model": "Carla rigged 001 (Renderpeople free 3D people)",
+      "selection": "research-people/selected-carla.json",
+      "source_archive": "rp_carla_rigged_001_FBX.zip",
+      "source_archive_path": "research-people/source-carla/rp_carla_rigged_001_FBX.zip",
+      "source_archive_sha256": "a62f27d791d47e51010182f70c58a925e5a6e7e6f80afd188a16723de2ea05b1",
+      "source_archive_bytes": 178741586,
+      "builder": "research-people/build_scene_people.py"
+    }
+  },
+  "profiles": {
+    "hero-nathan-walk-turn": {
+      "person": "Nathan",
+      "description": "Hero backyard sequence: 32 frames walking in place, then 32 frames blending stride to quiet stance, rotating left toward Carla, with head/arm chat gestures.",
+      "frame_count": 160,
+      "frame_width": 192,
+      "frame_height": 256,
+      "strip_width": 30720,
+      "strip_height": 256,
+      "output_png": "hero-nathan-walk-turn.png",
+      "metadata": "hero-nathan-walk-turn.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          40,
+          106
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "hero-carla-walk-turn": {
+      "person": "Carla",
+      "description": "Hero backyard sequence: 32 frames retargeted walk in place, then 32 frames blending stride to quiet stance, rotating right toward Nathan, with listening and chat gestures.",
+      "frame_count": 160,
+      "frame_width": 192,
+      "frame_height": 256,
+      "strip_width": 30720,
+      "strip_height": 256,
+      "output_png": "hero-carla-walk-turn.png",
+      "metadata": "hero-carla-walk-turn.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          200,
+          266
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "carla-seated-talk-right": {
+      "person": "Carla",
+      "description": "Interior seated profile: natural seated posture on sofa/chair/booth, thighs forward, knees bent, feet on floor, lap/arm gestures turning slightly right.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "carla-seated-talk-right.png",
+      "metadata": "carla-seated-talk-right.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          215,
+          347
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "nathan-seated-talk-left": {
+      "person": "Nathan",
+      "description": "Interior seated profile: natural seated posture on lounge chair / window table / booth, thighs forward, knees bent, conversational gesturing turning left.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "nathan-seated-talk-left.png",
+      "metadata": "nathan-seated-talk-left.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          375,
+          507
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "nathan-standing-idle": {
+      "person": "Nathan",
+      "description": "Interior standing idle profile: upright relaxed stance, natural weight distribution, subtle breathing and head rotation; suits architectural elevation scale.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "nathan-standing-idle.png",
+      "metadata": "nathan-standing-idle.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          72,
+          204
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "carla-standing-terrace": {
+      "person": "Carla",
+      "description": "Interior/exterior standing terrace profile: three-quarters stance looking out toward horizon and canopy, natural relaxed arm and head motion.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "carla-standing-terrace.png",
+      "metadata": "carla-standing-terrace.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          310,
+          442
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "carla-vanity-back": {
+      "person": "Carla",
+      "description": "Interior bathroom vanity profile: standing back/three-quarters view fully clothed at vanity basin looking into mirror, subtle posture and hand shifts.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "carla-vanity-back.png",
+      "metadata": "carla-vanity-back.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          175,
+          307
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    },
+    "nathan-counter-idle": {
+      "person": "Nathan",
+      "description": "Interior hospitality counter profile: natural standing posture with hand near counter height, subtle welcoming nod and conversational body shift.",
+      "frame_count": 96,
+      "frame_width": 256,
+      "frame_height": 384,
+      "strip_width": 24576,
+      "strip_height": 384,
+      "output_png": "nathan-counter-idle.png",
+      "metadata": "nathan-counter-idle.json",
+      "motion_donor": {
+        "model": "Sophia animated 003 idling (motion donor only)",
+        "donor_range": [
+          240,
+          372
+        ],
+        "retargeting": "Full-body rest-aware basis transform across 88 bones"
+      }
+    }
+  },
+  "outputs": {
+    "hero-nathan-walk-turn.png": {
+      "sha256": "d456cd36753e8e807d2b208036a7e272169eb9d24479d70ad262d85ecb85415d",
+      "width": 30720,
+      "height": 256,
+      "frame_count": 160,
+      "frame_width": 192,
+      "frame_height": 256,
+      "metadata": "hero-nathan-walk-turn.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "hero-carla-walk-turn.png": {
+      "sha256": "d501c266c661cdc3f959e1c008d67133a2fdf1cfb138e7ae00b17f19fed6b41a",
+      "width": 30720,
+      "height": 256,
+      "frame_count": 160,
+      "frame_width": 192,
+      "frame_height": 256,
+      "metadata": "hero-carla-walk-turn.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "carla-seated-talk-right.png": {
+      "sha256": "e5f39f06e0e28e8e7dcff012daa808c7f8ad1760551c7abf431b03c6faae7955",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "carla-seated-talk-right.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "nathan-seated-talk-left.png": {
+      "sha256": "f0576b4f89c3235914cf3f923167439c2676b9fc747de2c33301489ccd717698",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "nathan-seated-talk-left.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "nathan-standing-idle.png": {
+      "sha256": "8531e5cde1a8658eb658c25e242e0900c9bc6f62461fcb5948f9ab307dbe48b4",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "nathan-standing-idle.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "carla-standing-terrace.png": {
+      "sha256": "a57cf48b23185f2173bc2130e6eafdf448126ad4ae3811d7bbc4831c418333c2",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "carla-standing-terrace.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "carla-vanity-back.png": {
+      "sha256": "409a14be6547ccca5c427dbf98daff60b2284dba7a109cc117ce11b9d5bf5f66",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "carla-vanity-back.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "nathan-counter-idle.png": {
+      "sha256": "0b626738851d9c2734d29a1c11d67e4105f121955e0cadc2fffb54c7c7dec8e6",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "nathan-counter-idle.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "carla-seated-sofa.png": {
+      "sha256": "94b6c8b74787cdcf943e0a1a3c6be9d15a3eb32f64cbebd71ac61bb9dd565cfc",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "carla-seated-sofa.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "nathan-seated-bedroom.png": {
+      "sha256": "3177f64c3f89eb0801b85791cd7e5ddcac342da7b4a412e9b3cc86999b2463a3",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "nathan-seated-bedroom.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "carla-seated-booth.png": {
+      "sha256": "7101f171bfdaec8e3043d0830f7d280ace896f0026e8088a1ee895a8954003ba",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "carla-seated-booth.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    },
+    "nathan-seated-booth.png": {
+      "sha256": "17e0b54c4513ee6a79706fadbc39745c6743f42f04597dd884be9d8cd6de78b0",
+      "width": 30720,
+      "height": 480,
+      "frame_count": 96,
+      "frame_width": 320,
+      "frame_height": 480,
+      "metadata": "nathan-seated-booth.json",
+      "operation": "Rendered in Blender 4.5.14 LTS (BLENDER_EEVEE_NEXT, 32 samples, RGBA); packed into one strip"
+    }
+  },
+  "donor_provenance": {
+    "model": "Sophia animated 003 idling (motion donor only)",
+    "source_page": "https://renderpeople.com/free-3d-people/",
+    "terms": "https://renderpeople.com/general-terms-and-conditions/",
+    "archive": "rp_sophia_animated_003_idling_FBX.zip",
+    "archive_sha256": "10323ad2fad1e09fa2af62a222371eb76e19b49b0cc35807092f2ce6e825ec18",
+    "archive_bytes": 40321042,
+    "usage": "Authored motion review comparison: motion donor only retargeted to RenderPeople licensed models Nathan and Carla. Raw 3D model data not published or redistributed."
+  },
+  "review_status": "Direct Codex revision; visual review pending; publication held",
+  "review_owner": "Codex direct takeover following latest user request; AGY initial draft corrected and substantially revised."
+}

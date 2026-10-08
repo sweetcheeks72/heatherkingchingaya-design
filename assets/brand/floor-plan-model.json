@@ -1,0 +1,2177 @@
+{
+  "version": "1.2.1",
+  "project": {
+    "name": "Courtyard Residence",
+    "location": "Dallas, Texas",
+    "typology": "Single-Storey Courtyard Residence",
+    "status": "Concept only; site, structure, systems and jurisdictional review pending",
+    "basis_of_design": {
+      "reference_code": "2021 International Residential Code (IRC) with City of Dallas Local Amendments (Dallas City Code Chapter 57)",
+      "jurisdiction_notes": "Planning dimensions reference the City of Dallas 2021 IRC adoption and Ordinance 33099 administrative amendments. Concept only; site, structure, systems and jurisdictional review pending."
+    }
+  },
+  "drawing": {
+    "viewBox": "0 0 1600 1200",
+    "units": "feet",
+    "scale_pixels_per_foot": 16.0,
+    "offset_pixels": {
+      "x": 288.0,
+      "y": 168.0
+    },
+    "canvas": {
+      "width": 1600,
+      "height": 1200,
+      "background_color": "#f5f2e9"
+    },
+    "styling": {
+      "outer_wall_stroke": "#3b5e3a",
+      "outer_wall_width": 12,
+      "interior_wall_stroke": "#4d734c",
+      "interior_wall_width": 6,
+      "glazing_stroke": "#5f8156",
+      "glazing_width": 2,
+      "door_swing_stroke": "#5f8156",
+      "door_swing_width": 1.5,
+      "fixture_stroke": "#5f8156",
+      "fixture_fill": "none",
+      "furniture_stroke": "#5f8156",
+      "furniture_fill": "#ece9dc",
+      "tree_foliage_fill": "#e2e8ce",
+      "tree_foliage_opacity": 0.65,
+      "tree_foliage_stroke": "#4d734c",
+      "tree_branch_stroke": "#5f8156",
+      "circulation_stroke": "#729669",
+      "circulation_dasharray": "6 6",
+      "text_primary_fill": "#4d734c",
+      "text_secondary_fill": "#729669",
+      "paving_stroke": "#b9c9a8"
+    }
+  },
+  "building": {
+    "footprint": {
+      "width_ft": 64.0,
+      "depth_ft": 54.0,
+      "gross_footprint_sqft": 3456.0,
+      "courtyard_open_area_sqft": 483.0,
+      "net_clear_conditioned_floor_area_sqft": 2551.0
+    },
+    "conventions": {
+      "envelope_outer_face": "Bounds exactly (0.0, 0.0) to (64.0, 54.0)",
+      "orientation": "Top is North, Right is East, Bottom is South, Left is West",
+      "exterior_wall_thickness_ft": 0.75,
+      "interior_plumbing_wall_thickness_ft": 0.5,
+      "interior_partition_wall_thickness_ft": 0.375,
+      "nominal_interior_door_width_ft": 3.0,
+      "nominal_egress_door_width_ft": 3.0,
+      "circulation_target_clear_width_ft": 4.0
+    }
+  },
+  "spaces": [
+    {
+      "id": "pantry",
+      "name": "Pantry",
+      "label": "PANTRY",
+      "category": "storage",
+      "bounds": {
+        "x": 0.75,
+        "y": 0.75,
+        "width": 3.5,
+        "height": 8.5
+      },
+      "area_sqft": 29.75,
+      "clear_dimensions": "3'-6\" \u00d7 8'-6\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "Walk-in pantry with south entrance and perimeter shelving."
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "label": "KITCHEN",
+      "category": "habitable",
+      "bounds": {
+        "x": 4.75,
+        "y": 0.75,
+        "width": 15.0,
+        "height": 13.0
+      },
+      "area_sqft": 195.0,
+      "clear_dimensions": "15'-0\" \u00d7 13'-0\"",
+      "ceiling_height_assumed_ft": 10.0,
+      "description": "Continuous L-shaped worktop along full pantry wall; south pantry entrance; 42-in west work aisle, island with three stools and pocket-door laundry access."
+    },
+    {
+      "id": "dining_room",
+      "name": "Dining Room",
+      "label": "DINING ROOM",
+      "category": "habitable",
+      "bounds": {
+        "x": 0.75,
+        "y": 14.0,
+        "width": 18.75,
+        "height": 13.5
+      },
+      "area_sqft": 253.125,
+      "clear_dimensions": "18'-9\" \u00d7 13'-6\"",
+      "ceiling_height_assumed_ft": 10.0,
+      "description": "Upper-left dining room seating eight guests with generous surrounding circulation"
+    },
+    {
+      "id": "living_room",
+      "name": "Living Room",
+      "label": "LIVING ROOM",
+      "category": "habitable",
+      "bounds": {
+        "x": 0.75,
+        "y": 27.5,
+        "width": 18.75,
+        "height": 19.5
+      },
+      "area_sqft": 365.625,
+      "clear_dimensions": "18'-9\" \u00d7 19'-6\"",
+      "ceiling_height_assumed_ft": 10.0,
+      "description": "L-shaped sectional with at least 18-in coffee-table clearance, centered rug and 22-ft shared dining/living courtyard slider."
+    },
+    {
+      "id": "entry",
+      "name": "Entry / Foyer",
+      "label": "ENTRY",
+      "category": "circulation",
+      "bounds": {
+        "x": 0.75,
+        "y": 47.0,
+        "width": 15.25,
+        "height": 6.25
+      },
+      "area_sqft": 95.3125,
+      "clear_dimensions": "15'-3\" \u00d7 6'-3\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "South entry arrival with credenza along front wall, coat closet access, and direct living flow"
+    },
+    {
+      "id": "coat_closet",
+      "name": "Coat Closet",
+      "label": "COAT CLOSET",
+      "category": "storage",
+      "bounds": {
+        "x": 16.25,
+        "y": 48.25,
+        "width": 3.25,
+        "height": 5.0
+      },
+      "area_sqft": 16.25,
+      "clear_dimensions": "3'-3\" \u00d7 5'-0\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "Enclosed coat closet with pocket door clear of front entry swing and circulation"
+    },
+    {
+      "id": "laundry_utility",
+      "name": "Laundry / Utility",
+      "label": "LAUNDRY / UTILITY",
+      "category": "service",
+      "bounds": {
+        "x": 20.5,
+        "y": 0.75,
+        "width": 7.5,
+        "height": 12.75
+      },
+      "area_sqft": 95.625,
+      "clear_dimensions": "7'-6\" \u00d7 12'-9\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "Compact laundry with kitchen pocket door, washer/dryer and east-wall utility sink."
+    },
+    {
+      "id": "second_guest_bedroom",
+      "name": "Second Guest Bedroom",
+      "label": "GUEST BEDROOM 2",
+      "category": "habitable",
+      "bounds": {
+        "x": 28.75,
+        "y": 0.75,
+        "width": 13,
+        "height": 12.75
+      },
+      "area_sqft": 165.75,
+      "clear_dimensions": "13'-0\" \u00d7 12'-9\"",
+      "ceiling_height_assumed_ft": 9.5,
+      "description": "Enlarged guest bedroom with south-wall queen headboard, west built-in closet and north escape window."
+    },
+    {
+      "id": "courtyard",
+      "name": "Central Courtyard",
+      "label": "COURTYARD",
+      "category": "outdoor",
+      "bounds": {
+        "x": 20.5,
+        "y": 14.5,
+        "width": 21.0,
+        "height": 23.0
+      },
+      "area_sqft": 483.0,
+      "clear_dimensions": "21'-0\" \u00d7 23'-0\"",
+      "ceiling_height_assumed_ft": null,
+      "description": "Central open-air courtyard with architectural specimen tree, fountain, and terrace paving"
+    },
+    {
+      "id": "hallway_sitting",
+      "name": "Hallway / Sitting Area",
+      "label": "HALLWAY / SITTING AREA",
+      "category": "habitable",
+      "bounds": {
+        "x": 20.5,
+        "y": 38.5,
+        "width": 21.0,
+        "height": 14.5
+      },
+      "area_sqft": 304.5,
+      "clear_dimensions": "21'-0\" \u00d7 14'-6\"",
+      "ceiling_height_assumed_ft": 9.5,
+      "description": "South sitting lounge & gallery with 12-ft courtyard slider and direct corridor access"
+    },
+    {
+      "id": "shared_hallway",
+      "name": "Shared Hallway",
+      "label": "HALLWAY",
+      "category": "circulation",
+      "bounds": {
+        "x": 42.5,
+        "y": 0.75,
+        "width": 4.25,
+        "height": 52.25
+      },
+      "area_sqft": 222.0625,
+      "clear_dimensions": "4'-3\" \u00d7 52'-3\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "Continuous 4.25-ft wide corridor connecting all bedrooms, bathrooms, and sitting area"
+    },
+    {
+      "id": "guest_bathroom",
+      "name": "Guest Bathroom",
+      "label": "GUEST BATH",
+      "category": "sanitary",
+      "bounds": {
+        "x": 47.25,
+        "y": 28.25,
+        "width": 16.0,
+        "height": 7.5
+      },
+      "area_sqft": 120.0,
+      "clear_dimensions": "16'-0\" \u00d7 7'-6\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "East-bay guest bath with full-depth east tub surround, north-wall vanity and toilet, and south-swinging door"
+    },
+    {
+      "id": "guest_bedroom",
+      "name": "Guest Bedroom 1",
+      "label": "GUEST BEDROOM",
+      "category": "habitable",
+      "bounds": {
+        "x": 47.25,
+        "y": 36.25,
+        "width": 16.0,
+        "height": 17.0
+      },
+      "area_sqft": 272.0,
+      "clear_dimensions": "16'-0\" \u00d7 17'-0\"",
+      "ceiling_height_assumed_ft": 9.5,
+      "description": "South-wall queen bed and nightstands, full-width north built-in closet, clear east escape window; extra furniture removed."
+    },
+    {
+      "id": "primary_bathroom",
+      "name": "Primary Bathroom",
+      "label": "PRIMARY BATH",
+      "category": "sanitary",
+      "bounds": {
+        "x": 47.25,
+        "y": 0.75,
+        "width": 16.0,
+        "height": 8.5
+      },
+      "area_sqft": 136.0,
+      "clear_dimensions": "16'-0\" \u00d7 8'-6\"",
+      "ceiling_height_assumed_ft": 9.5,
+      "description": "Feedback 3 ensuite luxury bath deepened to 8.5 ft: walk-in shower upper-left, central oval freestanding tub under north window, water closet upper-right, and central double vanity with 43-in clear floor between tub front and vanity"
+    },
+    {
+      "id": "primary_dressing",
+      "name": "Primary Dressing Room",
+      "label": "DRESSING",
+      "category": "storage",
+      "bounds": {
+        "x": 47.25,
+        "y": 9.75,
+        "width": 16.0,
+        "height": 6.75
+      },
+      "area_sqft": 108.0,
+      "clear_dimensions": "16'-0\" \u00d7 6'-9\"",
+      "ceiling_height_assumed_ft": 9.0,
+      "description": "Feedback 3 dressing suite: central dressing table and stool backing the vanity, continuous 11.5-ft sliding-door wardrobe run along the south wall east of the open west circulation axis that links the bedroom pocket door straight through to the bath opening"
+    },
+    {
+      "id": "primary_bedroom",
+      "name": "Primary Bedroom",
+      "label": "PRIMARY BEDROOM",
+      "category": "habitable",
+      "bounds": {
+        "x": 47.25,
+        "y": 17.0,
+        "width": 16.0,
+        "height": 10.75
+      },
+      "area_sqft": 172.0,
+      "clear_dimensions": "16'-0\" \u00d7 10'-9\"",
+      "ceiling_height_assumed_ft": 10.0,
+      "description": "Primary sleeping chamber (10.75 ft deep) with king bed and nightstands on the east half of the north wall, 3.75-ft foot clearance, dresser pushed against the west wall, direct hallway door at the south end, east escape window, and west-axis pocket door into the dressing suite"
+    }
+  ],
+  "walls": [
+    {
+      "id": "W_EXT_N",
+      "type": "exterior",
+      "start": [
+        0.375,
+        0.375
+      ],
+      "end": [
+        63.625,
+        0.375
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_EXT_E",
+      "type": "exterior",
+      "start": [
+        63.625,
+        0.375
+      ],
+      "end": [
+        63.625,
+        53.625
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_EXT_S",
+      "type": "exterior",
+      "start": [
+        0.375,
+        53.625
+      ],
+      "end": [
+        63.625,
+        53.625
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_EXT_W",
+      "type": "exterior",
+      "start": [
+        0.375,
+        0.375
+      ],
+      "end": [
+        0.375,
+        53.625
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_INT_PANTRY_E",
+      "type": "partition",
+      "start": [
+        4.5,
+        0.375
+      ],
+      "end": [
+        4.5,
+        9.5
+      ],
+      "thickness": 0.375
+    },
+    {
+      "id": "W_INT_PANTRY_S",
+      "type": "partition",
+      "start": [
+        0.375,
+        9.5
+      ],
+      "end": [
+        4.5,
+        9.5
+      ],
+      "thickness": 0.375
+    },
+    {
+      "id": "W_INT_KIT_LAUND",
+      "type": "partition",
+      "start": [
+        20.0,
+        0.375
+      ],
+      "end": [
+        20.0,
+        14.0
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_COURT_W",
+      "type": "interior_bearing",
+      "start": [
+        20.0,
+        14.0
+      ],
+      "end": [
+        20.0,
+        38.0
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_INT_LIV_SIT",
+      "type": "partition",
+      "start": [
+        20.0,
+        38.0
+      ],
+      "end": [
+        20.0,
+        53.625
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_COURT_N",
+      "type": "interior_bearing",
+      "start": [
+        20.0,
+        14.0
+      ],
+      "end": [
+        42.0,
+        14.0
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_COURT_S",
+      "type": "interior_bearing",
+      "start": [
+        20.0,
+        38.0
+      ],
+      "end": [
+        42.0,
+        38.0
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_COURT_E",
+      "type": "interior_bearing",
+      "start": [
+        42.0,
+        14.0
+      ],
+      "end": [
+        42.0,
+        38.0
+      ],
+      "thickness": 0.75
+    },
+    {
+      "id": "W_INT_BED2_W",
+      "type": "partition",
+      "start": [
+        28.375,
+        0.375
+      ],
+      "end": [
+        28.375,
+        14
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_BED2_E",
+      "type": "partition",
+      "start": [
+        42.0,
+        0.375
+      ],
+      "end": [
+        42.0,
+        14.0
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_SIT_HALL",
+      "type": "partition",
+      "start": [
+        42.0,
+        38.0
+      ],
+      "end": [
+        42.0,
+        53.625
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_BED_W",
+      "type": "partition",
+      "start": [
+        47.0,
+        0.375
+      ],
+      "end": [
+        47.0,
+        53.625
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_BATH_DIV",
+      "type": "plumbing",
+      "start": [
+        47.0,
+        28.0
+      ],
+      "end": [
+        63.625,
+        28.0
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_GUEST_BED_N",
+      "type": "partition",
+      "start": [
+        47.0,
+        36.0
+      ],
+      "end": [
+        63.625,
+        36.0
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_COAT_W",
+      "type": "partition",
+      "start": [
+        16.0,
+        48.0
+      ],
+      "end": [
+        16.0,
+        53.625
+      ],
+      "thickness": 0.375
+    },
+    {
+      "id": "W_INT_COAT_N",
+      "type": "partition",
+      "start": [
+        16.0,
+        48.0
+      ],
+      "end": [
+        20.0,
+        48.0
+      ],
+      "thickness": 0.375
+    },
+    {
+      "id": "W_INT_PRI_DIV1",
+      "type": "plumbing",
+      "start": [
+        47.0,
+        9.5
+      ],
+      "end": [
+        63.625,
+        9.5
+      ],
+      "thickness": 0.5
+    },
+    {
+      "id": "W_INT_PRI_DIV2",
+      "type": "partition",
+      "start": [
+        47.0,
+        16.75
+      ],
+      "end": [
+        63.625,
+        16.75
+      ],
+      "thickness": 0.5
+    }
+  ],
+  "openings": [
+    {
+      "id": "OP_FRONT_ENTRY",
+      "wall_id": "W_EXT_S",
+      "type": "hinged_door",
+      "offset_ft": 11.5,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "inward_right",
+      "hinge_end": "end",
+      "swing_side": "left",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "exterior",
+        "entry"
+      ],
+      "design_intent": "Required primary side-hinged egress door"
+    },
+    {
+      "id": "OP_COAT_DOOR",
+      "wall_id": "W_INT_COAT_W",
+      "type": "pocket_door",
+      "offset_ft": 0.5,
+      "width_ft": 2.5,
+      "height_ft": 6.67,
+      "swing": "slide",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "entry",
+        "coat_closet"
+      ],
+      "design_intent": "Sliding pocket door to coat closet",
+      "pocket_toward": "end"
+    },
+    {
+      "id": "OP_PANTRY_DOOR",
+      "wall_id": "W_INT_PANTRY_S",
+      "type": "hinged_door",
+      "offset_ft": 1.375,
+      "width_ft": 2.5,
+      "height_ft": 6.67,
+      "swing": "outward",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "kitchen",
+        "pantry"
+      ],
+      "design_intent": "South-side pantry entrance leaves the entire kitchen-facing wall available for continuous worktop.",
+      "hinge_end": "end",
+      "swing_side": "right"
+    },
+    {
+      "id": "OP_LAUNDRY_DOOR",
+      "wall_id": "W_INT_KIT_LAUND",
+      "type": "pocket_door",
+      "offset_ft": 5.0,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "slide",
+      "hinge_end": "start",
+      "swing_side": "right",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "kitchen",
+        "laundry_utility"
+      ],
+      "design_intent": "Kitchen access through sliding door retracting into the southern wall pocket.",
+      "pocket_toward": "end"
+    },
+    {
+      "id": "OP_LIVING_TO_SITTING",
+      "wall_id": "W_INT_LIV_SIT",
+      "type": "cased_opening",
+      "offset_ft": 3.0,
+      "width_ft": 8.0,
+      "height_ft": 8.0,
+      "swing": "none",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "living_room",
+        "hallway_sitting"
+      ],
+      "design_intent": "Generous 8-ft open portal connecting living room and hallway/sitting area"
+    },
+    {
+      "id": "OP_LIVING_COURT_SLIDER",
+      "wall_id": "W_COURT_W",
+      "type": "sliding_glass_door",
+      "offset_ft": 1,
+      "width_ft": 22,
+      "height_ft": 8.0,
+      "swing": "slide",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "living_room",
+        "dining_room",
+        "courtyard"
+      ],
+      "design_intent": "22-ft sliding glazed opening across most of the 24-ft dining/living courtyard wall."
+    },
+    {
+      "id": "OP_SITTING_COURT_SLIDER",
+      "wall_id": "W_COURT_S",
+      "type": "sliding_glass_door",
+      "offset_ft": 4.0,
+      "width_ft": 12.0,
+      "height_ft": 8.0,
+      "swing": "slide",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "hallway_sitting",
+        "courtyard"
+      ],
+      "design_intent": "12-ft glazed sliding wall connecting hallway/sitting area to central courtyard"
+    },
+    {
+      "id": "OP_SITTING_TO_HALL",
+      "wall_id": "W_INT_SIT_HALL",
+      "type": "cased_opening",
+      "offset_ft": 6.0,
+      "width_ft": 5.0,
+      "height_ft": 8.0,
+      "swing": "none",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "hallway_sitting",
+        "shared_hallway"
+      ],
+      "design_intent": "5-ft clear cased opening connecting sitting area to bedroom hallway"
+    },
+    {
+      "id": "OP_GUEST2_BED_DOOR",
+      "wall_id": "W_INT_BED2_E",
+      "type": "hinged_door",
+      "offset_ft": 1.5,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "inward_right",
+      "hinge_end": "start",
+      "swing_side": "right",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "shared_hallway",
+        "second_guest_bedroom"
+      ],
+      "design_intent": "Direct private entrance from shared corridor into second guest bedroom"
+    },
+    {
+      "id": "OP_GUEST2_EGRESS_WINDOW",
+      "wall_id": "W_EXT_N",
+      "type": "egress_window",
+      "offset_ft": 34.5,
+      "width_ft": 4.0,
+      "height_ft": 5.0,
+      "swing": "casement_out",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "second_guest_bedroom",
+        "exterior_north"
+      ],
+      "design_intent": "Operable emergency escape window to north yard"
+    },
+    {
+      "id": "OP_GUEST_BATH_DOOR",
+      "wall_id": "W_INT_BED_W",
+      "type": "hinged_door",
+      "offset_ft": 32.25,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "inward_right",
+      "hinge_end": "end",
+      "swing_side": "left",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "shared_hallway",
+        "guest_bathroom"
+      ],
+      "design_intent": "Guest bath entrance swinging south against fixture-free south wall"
+    },
+    {
+      "id": "OP_GUEST_BED_DOOR",
+      "wall_id": "W_INT_BED_W",
+      "type": "hinged_door",
+      "offset_ft": 40.5,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "inward_left",
+      "hinge_end": "start",
+      "swing_side": "left",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "shared_hallway",
+        "guest_bedroom"
+      ],
+      "design_intent": "Direct entrance from corridor into guest bedroom"
+    },
+    {
+      "id": "OP_GUEST_EGRESS_WINDOW",
+      "wall_id": "W_EXT_E",
+      "type": "egress_window",
+      "offset_ft": 44.0,
+      "width_ft": 4.0,
+      "height_ft": 5.0,
+      "swing": "casement_out",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "guest_bedroom",
+        "exterior_east_yard"
+      ],
+      "design_intent": "Operable emergency escape window to east yard"
+    },
+    {
+      "id": "OP_WIN_KITCHEN_N",
+      "wall_id": "W_EXT_N",
+      "type": "window",
+      "offset_ft": 10.0,
+      "width_ft": 5.0,
+      "height_ft": 4.0,
+      "swing": "fixed",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "kitchen",
+        "exterior_north"
+      ],
+      "design_intent": "Daylight window above kitchen counter and range"
+    },
+    {
+      "id": "OP_WIN_DINING_W",
+      "wall_id": "W_EXT_W",
+      "type": "window",
+      "offset_ft": 17.0,
+      "width_ft": 8.0,
+      "height_ft": 6.0,
+      "swing": "fixed",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "dining_room",
+        "exterior_west_garden"
+      ],
+      "design_intent": "Picture window overlooking west garden"
+    },
+    {
+      "id": "OP_WIN_LIVING_W",
+      "wall_id": "W_EXT_W",
+      "type": "window",
+      "offset_ft": 31.0,
+      "width_ft": 8.0,
+      "height_ft": 6.0,
+      "swing": "fixed",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "living_room",
+        "exterior_west_garden"
+      ],
+      "design_intent": "Picture window framing west landscaping"
+    },
+    {
+      "id": "OP_WIN_SITTING_S",
+      "wall_id": "W_EXT_S",
+      "type": "window",
+      "offset_ft": 25.0,
+      "width_ft": 8.0,
+      "height_ft": 5.0,
+      "swing": "fixed",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "hallway_sitting",
+        "exterior_south"
+      ],
+      "design_intent": "South daylight window in hallway/sitting area"
+    },
+    {
+      "id": "OP_PRI_BED_DOOR",
+      "wall_id": "W_INT_BED_W",
+      "type": "hinged_door",
+      "offset_ft": 24.0,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "inward_left",
+      "hinge_end": "end",
+      "swing_side": "left",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "shared_hallway",
+        "primary_bedroom"
+      ],
+      "design_intent": "Direct private entrance from shared corridor into primary bedroom suite"
+    },
+    {
+      "id": "OP_PRI_BED_TO_DRESS",
+      "wall_id": "W_INT_PRI_DIV2",
+      "type": "pocket_door",
+      "offset_ft": 1.0,
+      "width_ft": 3.0,
+      "height_ft": 6.67,
+      "swing": "slide",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "primary_bedroom",
+        "primary_dressing"
+      ],
+      "design_intent": "Pocket door connecting primary bedroom to dressing room on the west circulation axis, aligned under the dressing-to-bath cased opening so the suite path never crosses the dressing stool or wardrobe approach"
+    },
+    {
+      "id": "OP_PRI_DRESS_TO_BATH",
+      "wall_id": "W_INT_PRI_DIV1",
+      "type": "cased_opening",
+      "offset_ft": 1.0,
+      "width_ft": 3.0,
+      "height_ft": 8.0,
+      "swing": "none",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "primary_dressing",
+        "primary_bathroom"
+      ],
+      "design_intent": "Open circulation passage between dressing room and primary bath"
+    },
+    {
+      "id": "OP_PRI_EGRESS_WINDOW",
+      "wall_id": "W_EXT_E",
+      "type": "egress_window",
+      "offset_ft": 23.5,
+      "width_ft": 4.0,
+      "height_ft": 5.0,
+      "swing": "casement_out",
+      "swing_angle_deg": 90,
+      "connected_space_ids": [
+        "primary_bedroom",
+        "exterior_east_yard"
+      ],
+      "design_intent": "Operable emergency escape window to east yard from primary bedroom"
+    },
+    {
+      "id": "OP_WIN_PRIMARY_BATH_N",
+      "wall_id": "W_EXT_N",
+      "type": "window",
+      "offset_ft": 52.375,
+      "width_ft": 5,
+      "height_ft": 3,
+      "swing": "fixed",
+      "swing_angle_deg": 0,
+      "connected_space_ids": [
+        "primary_bathroom",
+        "exterior_north"
+      ],
+      "design_intent": "High privacy daylight window above primary bath tub."
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "FIX_PANTRY_SHELVES_W",
+      "room_id": "pantry",
+      "type": "shelving",
+      "bounds": {
+        "x": 0.75,
+        "y": 0.75,
+        "width": 1.0,
+        "height": 8.0
+      }
+    },
+    {
+      "id": "FIX_PANTRY_SHELVES_N",
+      "room_id": "pantry",
+      "type": "shelving",
+      "bounds": {
+        "x": 1.75,
+        "y": 0.75,
+        "width": 2.5,
+        "height": 1.0
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_COUNTER_N",
+      "room_id": "kitchen",
+      "type": "countertop",
+      "bounds": {
+        "x": 4.75,
+        "y": 0.75,
+        "width": 15.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_COUNTER_W",
+      "room_id": "kitchen",
+      "type": "countertop",
+      "bounds": {
+        "x": 4.75,
+        "y": 2.75,
+        "width": 2.0,
+        "height": 6.75
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_RANGE",
+      "room_id": "kitchen",
+      "type": "range",
+      "bounds": {
+        "x": 11.0,
+        "y": 0.75,
+        "width": 3.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_REFRIG",
+      "room_id": "kitchen",
+      "type": "refrigerator",
+      "bounds": {
+        "x": 16.5,
+        "y": 0.75,
+        "width": 3.0,
+        "height": 2.25
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_ISLAND",
+      "room_id": "kitchen",
+      "type": "island",
+      "bounds": {
+        "x": 10.25,
+        "y": 6.75,
+        "width": 6.5,
+        "height": 3.25
+      }
+    },
+    {
+      "id": "FIX_KITCHEN_SINK",
+      "room_id": "kitchen",
+      "type": "sink",
+      "bounds": {
+        "x": 12.25,
+        "y": 7.25,
+        "width": 2.5,
+        "height": 1.8
+      }
+    },
+    {
+      "id": "FIX_COAT_ROD",
+      "room_id": "coat_closet",
+      "type": "closet_rod",
+      "bounds": {
+        "x": 16.5,
+        "y": 49.0,
+        "width": 2.75,
+        "height": 1.5
+      }
+    },
+    {
+      "id": "FIX_LAUNDRY_UNITS",
+      "room_id": "laundry_utility",
+      "type": "washer_dryer",
+      "bounds": {
+        "x": 21.0,
+        "y": 1.5,
+        "width": 5.5,
+        "height": 2.5
+      }
+    },
+    {
+      "id": "FIX_LAUNDRY_SINK",
+      "room_id": "laundry_utility",
+      "type": "counter_sink",
+      "bounds": {
+        "x": 25.5,
+        "y": 5,
+        "width": 2.5,
+        "height": 3.5
+      }
+    },
+    {
+      "id": "FIX_GUEST2_CLOSET",
+      "room_id": "second_guest_bedroom",
+      "type": "built_in_closet",
+      "bounds": {
+        "x": 28.75,
+        "y": 1.25,
+        "width": 2,
+        "height": 5
+      }
+    },
+    {
+      "id": "FIX_COURT_FOUNTAIN",
+      "room_id": "courtyard",
+      "type": "fountain",
+      "bounds": {
+        "x": 34.0,
+        "y": 29.0,
+        "width": 4.0,
+        "height": 4.0
+      }
+    },
+    {
+      "id": "FIX_GUEST_TUB",
+      "room_id": "guest_bathroom",
+      "type": "full_depth_tub",
+      "bounds": {
+        "x": 60.0,
+        "y": 28.25,
+        "width": 3.25,
+        "height": 7.5
+      }
+    },
+    {
+      "id": "FIX_GUEST_VANITY",
+      "room_id": "guest_bathroom",
+      "type": "vanity",
+      "bounds": {
+        "x": 48.0,
+        "y": 28.5,
+        "width": 4.5,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_GUEST_TOILET",
+      "room_id": "guest_bathroom",
+      "type": "water_closet",
+      "bounds": {
+        "x": 55.0,
+        "y": 28.5,
+        "width": 2.5,
+        "height": 2.5
+      }
+    },
+    {
+      "id": "FIX_GUEST_CLOSET",
+      "room_id": "guest_bedroom",
+      "type": "built_in_closet",
+      "bounds": {
+        "x": 47.25,
+        "y": 36.25,
+        "width": 16,
+        "height": 2
+      }
+    },
+    {
+      "id": "FIX_PRI_SHOWER",
+      "room_id": "primary_bathroom",
+      "type": "walk_in_shower",
+      "bounds": {
+        "x": 47.5,
+        "y": 0.75,
+        "width": 4.5,
+        "height": 4.0
+      }
+    },
+    {
+      "id": "FIX_PRI_TUB",
+      "room_id": "primary_bathroom",
+      "type": "freestanding_tub",
+      "bounds": {
+        "x": 52.5,
+        "y": 0.85,
+        "width": 5.5,
+        "height": 2.8
+      }
+    },
+    {
+      "id": "FIX_PRI_TOILET",
+      "room_id": "primary_bathroom",
+      "type": "water_closet",
+      "bounds": {
+        "x": 59.5,
+        "y": 0.85,
+        "width": 2.5,
+        "height": 2.5
+      }
+    },
+    {
+      "id": "FIX_PRI_VANITY",
+      "room_id": "primary_bathroom",
+      "type": "double_vanity",
+      "bounds": {
+        "x": 52.5,
+        "y": 7.25,
+        "width": 5.5,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_PRI_STORAGE_E",
+      "room_id": "primary_bathroom",
+      "type": "shelving",
+      "bounds": {
+        "x": 59.5,
+        "y": 7.25,
+        "width": 3.5,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_PRI_WARDROBE_RUN",
+      "room_id": "primary_dressing",
+      "type": "built_in_closet",
+      "bounds": {
+        "x": 51.5,
+        "y": 14.5,
+        "width": 11.5,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FIX_PRI_WARDROBE_ROD",
+      "room_id": "primary_dressing",
+      "type": "closet_rod",
+      "bounds": {
+        "x": 51.75,
+        "y": 14.9,
+        "width": 11.0,
+        "height": 1.2
+      }
+    }
+  ],
+  "furniture": [
+    {
+      "id": "FURN_DINING_TABLE",
+      "room_id": "dining_room",
+      "type": "dining_table",
+      "bounds": {
+        "x": 4.5,
+        "y": 18.5,
+        "width": 8.0,
+        "height": 3.6
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_N1",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 5.0,
+        "y": 17.1,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_N2",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 7.75,
+        "y": 17.1,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_N3",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 10.5,
+        "y": 17.1,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_S1",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 5.0,
+        "y": 22.3,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_S2",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 7.75,
+        "y": 22.3,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_S3",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 10.5,
+        "y": 22.3,
+        "width": 1.5,
+        "height": 1.2
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_W",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 3.1,
+        "y": 19.3,
+        "width": 1.2,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_DINING_CHAIR_E",
+      "room_id": "dining_room",
+      "type": "dining_chair",
+      "bounds": {
+        "x": 12.7,
+        "y": 19.3,
+        "width": 1.2,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_LIVING_SECTIONAL",
+      "room_id": "living_room",
+      "type": "sectional_sofa",
+      "bounds": {
+        "x": 2.25,
+        "y": 33.5,
+        "width": 9.0,
+        "height": 7.5
+      }
+    },
+    {
+      "id": "FURN_LIVING_COFFEE_TABLE",
+      "room_id": "living_room",
+      "type": "coffee_table",
+      "bounds": {
+        "x": 6.55,
+        "y": 38.3,
+        "width": 4.0,
+        "height": 2.4
+      }
+    },
+    {
+      "id": "FURN_LIVING_CHAIR_1",
+      "room_id": "living_room",
+      "type": "armchair",
+      "bounds": {
+        "x": 4.5,
+        "y": 42.6,
+        "width": 2.8,
+        "height": 2.8
+      }
+    },
+    {
+      "id": "FURN_LIVING_CHAIR_2",
+      "room_id": "living_room",
+      "type": "armchair",
+      "bounds": {
+        "x": 8.5,
+        "y": 42.6,
+        "width": 2.8,
+        "height": 2.8
+      }
+    },
+    {
+      "id": "FURN_LIVING_RUG",
+      "room_id": "living_room",
+      "type": "area_rug",
+      "bounds": {
+        "x": 1.75,
+        "y": 33.0,
+        "width": 13.6,
+        "height": 13.0
+      }
+    },
+    {
+      "id": "FURN_ENTRY_CREDENZA",
+      "room_id": "entry",
+      "type": "credenza_bookcase",
+      "bounds": {
+        "x": 3.5,
+        "y": 51.4,
+        "width": 5.5,
+        "height": 1.6
+      }
+    },
+    {
+      "id": "FURN_SITTING_CHAIR_1",
+      "room_id": "hallway_sitting",
+      "type": "lounge_chair",
+      "bounds": {
+        "x": 32,
+        "y": 49.5,
+        "width": 3.0,
+        "height": 3.0
+      },
+      "rotation_deg": 180
+    },
+    {
+      "id": "FURN_SITTING_CHAIR_2",
+      "room_id": "hallway_sitting",
+      "type": "lounge_chair",
+      "bounds": {
+        "x": 37,
+        "y": 49.5,
+        "width": 3.0,
+        "height": 3.0
+      },
+      "rotation_deg": 180
+    },
+    {
+      "id": "FURN_SITTING_TABLE",
+      "room_id": "hallway_sitting",
+      "type": "side_table",
+      "bounds": {
+        "x": 35.2,
+        "y": 50,
+        "width": 1.6,
+        "height": 2
+      }
+    },
+    {
+      "id": "FURN_SITTING_CREDENZA",
+      "room_id": "hallway_sitting",
+      "type": "credenza_bookcase",
+      "bounds": {
+        "x": 23.0,
+        "y": 51.0,
+        "width": 8.0,
+        "height": 1.8
+      }
+    },
+    {
+      "id": "FURN_GUEST2_BED",
+      "room_id": "second_guest_bedroom",
+      "type": "queen_bed",
+      "bounds": {
+        "x": 33,
+        "y": 6.75,
+        "width": 5.5,
+        "height": 6.5
+      },
+      "rotation_deg": 180
+    },
+    {
+      "id": "FURN_GUEST2_NIGHTSTAND",
+      "room_id": "second_guest_bedroom",
+      "type": "nightstand",
+      "bounds": {
+        "x": 30.75,
+        "y": 11.25,
+        "width": 2.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_GUEST_BED",
+      "room_id": "guest_bedroom",
+      "type": "queen_bed",
+      "bounds": {
+        "x": 52.6,
+        "y": 46.45,
+        "width": 5.5,
+        "height": 6.8
+      },
+      "rotation_deg": 180
+    },
+    {
+      "id": "FURN_GUEST_NIGHTSTAND_W",
+      "room_id": "guest_bedroom",
+      "type": "nightstand",
+      "bounds": {
+        "x": 50.5,
+        "y": 51.25,
+        "width": 2.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_GUEST_NIGHTSTAND_E",
+      "room_id": "guest_bedroom",
+      "type": "nightstand",
+      "bounds": {
+        "x": 58.5,
+        "y": 51.25,
+        "width": 2.5,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_PRI_DRESSING_TABLE",
+      "room_id": "primary_dressing",
+      "type": "writing_desk",
+      "bounds": {
+        "x": 52.5,
+        "y": 9.75,
+        "width": 5.5,
+        "height": 1.5
+      }
+    },
+    {
+      "id": "FURN_PRI_DRESSING_STOOL",
+      "room_id": "primary_dressing",
+      "type": "stool",
+      "bounds": {
+        "x": 54.6,
+        "y": 11.4,
+        "width": 1.3,
+        "height": 1.3
+      }
+    },
+    {
+      "id": "FURN_PRI_BED",
+      "room_id": "primary_bedroom",
+      "type": "king_bed",
+      "bounds": {
+        "x": 54.0,
+        "y": 17.2,
+        "width": 6.5,
+        "height": 6.8
+      }
+    },
+    {
+      "id": "FURN_PRI_NIGHTSTAND_W",
+      "room_id": "primary_bedroom",
+      "type": "nightstand",
+      "bounds": {
+        "x": 51.75,
+        "y": 17.2,
+        "width": 2.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_PRI_NIGHTSTAND_E",
+      "room_id": "primary_bedroom",
+      "type": "nightstand",
+      "bounds": {
+        "x": 60.75,
+        "y": 17.2,
+        "width": 2.0,
+        "height": 2.0
+      }
+    },
+    {
+      "id": "FURN_PRI_DRESSER",
+      "room_id": "primary_bedroom",
+      "type": "dresser",
+      "bounds": {
+        "x": 47.5,
+        "y": 19.8,
+        "width": 1.8,
+        "height": 3.7
+      }
+    },
+    {
+      "id": "FURN_KITCHEN_STOOL_1",
+      "room_id": "kitchen",
+      "type": "stool",
+      "bounds": {
+        "x": 10.75,
+        "y": 10.3,
+        "width": 1.3,
+        "height": 1.3
+      }
+    },
+    {
+      "id": "FURN_KITCHEN_STOOL_2",
+      "room_id": "kitchen",
+      "type": "stool",
+      "bounds": {
+        "x": 12.85,
+        "y": 10.3,
+        "width": 1.3,
+        "height": 1.3
+      }
+    },
+    {
+      "id": "FURN_KITCHEN_STOOL_3",
+      "room_id": "kitchen",
+      "type": "stool",
+      "bounds": {
+        "x": 14.95,
+        "y": 10.3,
+        "width": 1.3,
+        "height": 1.3
+      }
+    }
+  ],
+  "trees": [
+    {
+      "id": "TREE_COURTYARD",
+      "category": "focal_specimen",
+      "position": {
+        "x": 30.0,
+        "y": 24.5
+      },
+      "canopy_radius_ft": 6.5,
+      "trunk_radius_ft": 0.6,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 10,
+      "description": "Courtyard focal tree with natural clustered foliage, varied branches, subtle layered transparencies, and leaf accents"
+    },
+    {
+      "id": "TREE_WEST_1",
+      "category": "landscape",
+      "position": {
+        "x": -8.0,
+        "y": 16.0
+      },
+      "canopy_radius_ft": 7.0,
+      "trunk_radius_ft": 0.6,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 9
+    },
+    {
+      "id": "TREE_WEST_2",
+      "category": "landscape",
+      "position": {
+        "x": -7.0,
+        "y": 38.0
+      },
+      "canopy_radius_ft": 6.0,
+      "trunk_radius_ft": 0.5,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 8
+    },
+    {
+      "id": "TREE_EAST_1",
+      "category": "landscape",
+      "position": {
+        "x": 72.0,
+        "y": 16.0
+      },
+      "canopy_radius_ft": 7.5,
+      "trunk_radius_ft": 0.7,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 11
+    },
+    {
+      "id": "TREE_EAST_2",
+      "category": "landscape",
+      "position": {
+        "x": 71.0,
+        "y": 40.0
+      },
+      "canopy_radius_ft": 6.5,
+      "trunk_radius_ft": 0.6,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 9
+    },
+    {
+      "id": "TREE_SOUTH_STREET_1",
+      "category": "street",
+      "position": {
+        "x": 5.0,
+        "y": 59.0
+      },
+      "canopy_radius_ft": 4.5,
+      "trunk_radius_ft": 0.5,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 8
+    },
+    {
+      "id": "TREE_SOUTH_STREET_2",
+      "category": "street",
+      "position": {
+        "x": 28.0,
+        "y": 59.0
+      },
+      "canopy_radius_ft": 4.5,
+      "trunk_radius_ft": 0.5,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 8
+    },
+    {
+      "id": "TREE_SOUTH_STREET_3",
+      "category": "street",
+      "position": {
+        "x": 55.0,
+        "y": 59.0
+      },
+      "canopy_radius_ft": 4.5,
+      "trunk_radius_ft": 0.5,
+      "style": "architectural_lobed_canopy",
+      "lobe_count": 8
+    }
+  ],
+  "circulation": [
+    {
+      "id": "ROUTE_ENTRY_TO_PRIMARY_BED",
+      "name": "Main South Entry to Primary Bedroom",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          13.0,
+          56.0
+        ],
+        [
+          13.0,
+          53.625
+        ],
+        [
+          13.0,
+          46.5
+        ],
+        [
+          20.0,
+          46.5
+        ],
+        [
+          42.0,
+          46.5
+        ],
+        [
+          44.6,
+          46.5
+        ],
+        [
+          44.6,
+          25.5
+        ],
+        [
+          47.0,
+          25.5
+        ],
+        [
+          50.5,
+          25.5
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_FRONT_ENTRY",
+        "OP_LIVING_TO_SITTING",
+        "OP_SITTING_TO_HALL",
+        "OP_PRI_BED_DOOR"
+      ]
+    },
+    {
+      "id": "ROUTE_ENTRY_TO_GUEST_BED",
+      "name": "Main South Entry to Guest Bedroom 1",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          13.0,
+          56.0
+        ],
+        [
+          13.0,
+          53.625
+        ],
+        [
+          13.0,
+          46.5
+        ],
+        [
+          20.0,
+          46.5
+        ],
+        [
+          42.0,
+          46.5
+        ],
+        [
+          44.6,
+          46.5
+        ],
+        [
+          44.6,
+          42.5
+        ],
+        [
+          47.0,
+          42.5
+        ],
+        [
+          50.5,
+          42.5
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_FRONT_ENTRY",
+        "OP_LIVING_TO_SITTING",
+        "OP_SITTING_TO_HALL",
+        "OP_GUEST_BED_DOOR"
+      ]
+    },
+    {
+      "id": "ROUTE_ENTRY_TO_GUEST2_BED",
+      "name": "Main South Entry to Second Guest Bedroom",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          13.0,
+          56.0
+        ],
+        [
+          13.0,
+          53.625
+        ],
+        [
+          13.0,
+          46.5
+        ],
+        [
+          20.0,
+          46.5
+        ],
+        [
+          42.0,
+          46.5
+        ],
+        [
+          44.6,
+          46.5
+        ],
+        [
+          44.6,
+          3.5
+        ],
+        [
+          42.0,
+          3.5
+        ],
+        [
+          38.0,
+          3.5
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_FRONT_ENTRY",
+        "OP_LIVING_TO_SITTING",
+        "OP_SITTING_TO_HALL",
+        "OP_GUEST2_BED_DOOR"
+      ]
+    },
+    {
+      "id": "ROUTE_LIVING_TO_KITCHEN_PANTRY",
+      "name": "Living to Kitchen and Pantry",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          17.5,
+          42
+        ],
+        [
+          17.5,
+          20
+        ],
+        [
+          17.5,
+          12.6
+        ],
+        [
+          3,
+          12.6
+        ],
+        [
+          3,
+          9.5
+        ],
+        [
+          3,
+          7.95
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_PANTRY_DOOR"
+      ]
+    },
+    {
+      "id": "ROUTE_LIVING_TO_COURTYARD",
+      "name": "Living Room to Central Courtyard",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          17.0,
+          33.5
+        ],
+        [
+          20.0,
+          33.5
+        ],
+        [
+          23.5,
+          33.5
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_LIVING_COURT_SLIDER"
+      ]
+    },
+    {
+      "id": "ROUTE_PRIMARY_EGRESS_TO_PUBLIC_WAY",
+      "name": "Primary Bedroom Egress to Exterior Yard",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          50.5,
+          25.5
+        ],
+        [
+          63.625,
+          25.5
+        ],
+        [
+          67.0,
+          25.5
+        ],
+        [
+          67.0,
+          53.625
+        ],
+        [
+          67.0,
+          60.0
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_PRI_EGRESS_WINDOW"
+      ]
+    },
+    {
+      "id": "ROUTE_PRIMARY_BED_TO_BATH",
+      "name": "Primary Bedroom through Dressing Room to Ensuite Bath",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          50.5,
+          25.5
+        ],
+        [
+          50.5,
+          19.0
+        ],
+        [
+          49.5,
+          19.0
+        ],
+        [
+          49.5,
+          7.0
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_PRI_BED_TO_DRESS",
+        "OP_PRI_DRESS_TO_BATH"
+      ]
+    },
+    {
+      "id": "ROUTE_GUEST_EGRESS_TO_PUBLIC_WAY",
+      "name": "Guest Bedroom Egress to Exterior Yard",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          55.0,
+          46.0
+        ],
+        [
+          63.625,
+          46.0
+        ],
+        [
+          67.0,
+          46.0
+        ],
+        [
+          67.0,
+          53.625
+        ],
+        [
+          67.0,
+          60.0
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_GUEST_EGRESS_WINDOW"
+      ]
+    },
+    {
+      "id": "ROUTE_GUEST2_EGRESS_TO_PUBLIC_WAY",
+      "name": "Second Guest Bedroom Egress to Exterior Yard",
+      "target_clear_width_ft": 4.0,
+      "points": [
+        [
+          36.5,
+          5.0
+        ],
+        [
+          36.5,
+          0.375
+        ],
+        [
+          36.5,
+          -4.0
+        ],
+        [
+          0.0,
+          -4.0
+        ],
+        [
+          -4.0,
+          -4.0
+        ]
+      ],
+      "doorways_traversed": [
+        "OP_GUEST2_EGRESS_WINDOW"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "space_id": "pantry",
+      "position": {
+        "x": 2.5,
+        "y": 5.0
+      },
+      "primary_text": "PANTRY",
+      "dimension_text": "3'-6\" \u00d7 8'-6\"",
+      "primary_font_size": 9,
+      "primary_letter_spacing": 1,
+      "dimension_font_size": 7,
+      "dimension_letter_spacing": 0.5
+    },
+    {
+      "space_id": "kitchen",
+      "position": {
+        "x": 12.5,
+        "y": 4.5
+      },
+      "primary_text": "KITCHEN",
+      "dimension_text": "15'-0\" \u00d7 13'-0\""
+    },
+    {
+      "space_id": "dining_room",
+      "position": {
+        "x": 8.5,
+        "y": 15.5
+      },
+      "primary_text": "DINING ROOM",
+      "dimension_text": "18'-9\" \u00d7 13'-6\""
+    },
+    {
+      "space_id": "living_room",
+      "position": {
+        "x": 14.5,
+        "y": 38.0
+      },
+      "primary_text": "LIVING ROOM",
+      "dimension_text": "18'-9\" \u00d7 19'-6\""
+    },
+    {
+      "space_id": "entry",
+      "position": {
+        "x": 11.5,
+        "y": 50.0
+      },
+      "primary_text": "ENTRY",
+      "dimension_text": "15'-3\" \u00d7 6'-3\""
+    },
+    {
+      "space_id": "coat_closet",
+      "position": {
+        "x": 17.85,
+        "y": 51.0
+      },
+      "primary_text": "COAT",
+      "dimension_text": "3'-3\" \u00d7 5'-0\""
+    },
+    {
+      "space_id": "courtyard",
+      "position": {
+        "x": 27.5,
+        "y": 34.0
+      },
+      "primary_text": "COURTYARD",
+      "dimension_text": "21'-0\" \u00d7 23'-0\""
+    },
+    {
+      "space_id": "hallway_sitting",
+      "position": {
+        "x": 31.0,
+        "y": 42
+      },
+      "primary_text": "HALLWAY / SITTING AREA",
+      "dimension_text": "21'-0\" \u00d7 14'-6\""
+    },
+    {
+      "space_id": "shared_hallway",
+      "position": {
+        "x": 44.6,
+        "y": 26.0
+      },
+      "primary_text": "HALL",
+      "dimension_text": "4'-3\" WIDE"
+    },
+    {
+      "space_id": "second_guest_bedroom",
+      "position": {
+        "x": 36.9,
+        "y": 5.1
+      },
+      "primary_text": "GUEST BEDROOM 2",
+      "dimension_text": "13'-0\" \u00d7 12'-9\"",
+      "primary_font_size": 8,
+      "primary_letter_spacing": 0.5,
+      "dimension_font_size": 8,
+      "dimension_letter_spacing": 0.5
+    },
+    {
+      "space_id": "guest_bathroom",
+      "position": {
+        "x": 54.0,
+        "y": 33.5
+      },
+      "primary_text": "GUEST BATH",
+      "dimension_text": "16'-0\" \u00d7 7'-6\""
+    },
+    {
+      "space_id": "guest_bedroom",
+      "position": {
+        "x": 55.0,
+        "y": 43
+      },
+      "primary_text": "GUEST BEDROOM 1",
+      "dimension_text": "16'-0\" \u00d7 17'-0\""
+    },
+    {
+      "space_id": "laundry_utility",
+      "position": {
+        "x": 24.1,
+        "y": 10.5
+      },
+      "primary_text": "LAUNDRY",
+      "dimension_text": "7'-6\" \u00d7 12'-9\"",
+      "primary_font_size": 10,
+      "primary_letter_spacing": 1,
+      "dimension_font_size": 8
+    },
+    {
+      "space_id": "primary_bathroom",
+      "position": {
+        "x": 55.0,
+        "y": 5.5
+      },
+      "primary_text": "PRIMARY BATH",
+      "dimension_text": "16'-0\" \u00d7 8'-6\""
+    },
+    {
+      "space_id": "primary_dressing",
+      "position": {
+        "x": 60.6,
+        "y": 12.3
+      },
+      "primary_text": "DRESSING",
+      "dimension_text": "16'-0\" \u00d7 6'-9\""
+    },
+    {
+      "space_id": "primary_bedroom",
+      "position": {
+        "x": 55.6,
+        "y": 25.5
+      },
+      "primary_text": "PRIMARY BEDROOM",
+      "dimension_text": "16'-0\" \u00d7 10'-9\""
+    }
+  ]
+}

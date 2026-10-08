@@ -1,0 +1,1285 @@
+{
+  "file": "hero-nathan-walk-turn.png",
+  "person": "Nathan",
+  "frame_count": 160,
+  "frame_width": 192,
+  "frame_height": 256,
+  "strip_width": 30720,
+  "strip_height": 256,
+  "fps": 18.18181818181818,
+  "clip_seconds": 8.8,
+  "body": {
+    "top": 18,
+    "bottom": 241,
+    "left": 26,
+    "right": 164
+  },
+  "visible_body_height": 224,
+  "foot_anchor": 242,
+  "ground_anchor": [
+    107.6,
+    229.4
+  ],
+  "frames": [
+    {
+      "top": 24,
+      "bottom": 227,
+      "left": 32,
+      "right": 157
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 37,
+      "right": 162
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 42,
+      "right": 164
+    },
+    {
+      "top": 21,
+      "bottom": 228,
+      "left": 53,
+      "right": 162
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 58,
+      "right": 159
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 64,
+      "right": 154
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 69,
+      "right": 147
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 74,
+      "right": 139
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 66,
+      "right": 121
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 61,
+      "right": 126
+    },
+    {
+      "top": 18,
+      "bottom": 231,
+      "left": 57,
+      "right": 130
+    },
+    {
+      "top": 18,
+      "bottom": 231,
+      "left": 46,
+      "right": 135
+    },
+    {
+      "top": 19,
+      "bottom": 231,
+      "left": 38,
+      "right": 140
+    },
+    {
+      "top": 20,
+      "bottom": 232,
+      "left": 33,
+      "right": 150
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 34,
+      "right": 154
+    },
+    {
+      "top": 21,
+      "bottom": 234,
+      "left": 38,
+      "right": 158
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 43,
+      "right": 161
+    },
+    {
+      "top": 20,
+      "bottom": 234,
+      "left": 49,
+      "right": 160
+    },
+    {
+      "top": 19,
+      "bottom": 231,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 64,
+      "right": 147
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 69,
+      "right": 140
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 69,
+      "right": 131
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 66,
+      "right": 120
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 57,
+      "right": 124
+    },
+    {
+      "top": 19,
+      "bottom": 226,
+      "left": 43,
+      "right": 129
+    },
+    {
+      "top": 20,
+      "bottom": 225,
+      "left": 33,
+      "right": 133
+    },
+    {
+      "top": 22,
+      "bottom": 226,
+      "left": 26,
+      "right": 138
+    },
+    {
+      "top": 24,
+      "bottom": 227,
+      "left": 32,
+      "right": 157
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 42,
+      "right": 164
+    },
+    {
+      "top": 22,
+      "bottom": 227,
+      "left": 47,
+      "right": 164
+    },
+    {
+      "top": 21,
+      "bottom": 228,
+      "left": 53,
+      "right": 162
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 58,
+      "right": 159
+    },
+    {
+      "top": 19,
+      "bottom": 228,
+      "left": 64,
+      "right": 154
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 74,
+      "right": 139
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 70,
+      "right": 130
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 66,
+      "right": 121
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 61,
+      "right": 126
+    },
+    {
+      "top": 18,
+      "bottom": 231,
+      "left": 57,
+      "right": 130
+    },
+    {
+      "top": 19,
+      "bottom": 231,
+      "left": 38,
+      "right": 140
+    },
+    {
+      "top": 19,
+      "bottom": 232,
+      "left": 33,
+      "right": 145
+    },
+    {
+      "top": 20,
+      "bottom": 232,
+      "left": 33,
+      "right": 150
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 34,
+      "right": 154
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 43,
+      "right": 161
+    },
+    {
+      "top": 20,
+      "bottom": 234,
+      "left": 49,
+      "right": 160
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 54,
+      "right": 157
+    },
+    {
+      "top": 19,
+      "bottom": 231,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 64,
+      "right": 147
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 69,
+      "right": 131
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 66,
+      "right": 120
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 63,
+      "right": 119
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 57,
+      "right": 124
+    },
+    {
+      "top": 19,
+      "bottom": 226,
+      "left": 43,
+      "right": 129
+    },
+    {
+      "top": 22,
+      "bottom": 226,
+      "left": 26,
+      "right": 138
+    },
+    {
+      "top": 24,
+      "bottom": 227,
+      "left": 32,
+      "right": 157
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 37,
+      "right": 162
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 42,
+      "right": 164
+    },
+    {
+      "top": 22,
+      "bottom": 227,
+      "left": 47,
+      "right": 164
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 58,
+      "right": 159
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 64,
+      "right": 154
+    },
+    {
+      "top": 19,
+      "bottom": 229,
+      "left": 69,
+      "right": 147
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 74,
+      "right": 139
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 70,
+      "right": 130
+    },
+    {
+      "top": 18,
+      "bottom": 230,
+      "left": 61,
+      "right": 126
+    },
+    {
+      "top": 18,
+      "bottom": 231,
+      "left": 57,
+      "right": 130
+    },
+    {
+      "top": 18,
+      "bottom": 231,
+      "left": 46,
+      "right": 135
+    },
+    {
+      "top": 19,
+      "bottom": 231,
+      "left": 38,
+      "right": 140
+    },
+    {
+      "top": 19,
+      "bottom": 232,
+      "left": 33,
+      "right": 145
+    },
+    {
+      "top": 21,
+      "bottom": 233,
+      "left": 34,
+      "right": 154
+    },
+    {
+      "top": 21,
+      "bottom": 234,
+      "left": 38,
+      "right": 158
+    },
+    {
+      "top": 21,
+      "bottom": 234,
+      "left": 43,
+      "right": 161
+    },
+    {
+      "top": 21,
+      "bottom": 234,
+      "left": 49,
+      "right": 160
+    },
+    {
+      "top": 20,
+      "bottom": 233,
+      "left": 54,
+      "right": 157
+    },
+    {
+      "top": 19,
+      "bottom": 230,
+      "left": 64,
+      "right": 147
+    },
+    {
+      "top": 19,
+      "bottom": 230,
+      "left": 69,
+      "right": 140
+    },
+    {
+      "top": 19,
+      "bottom": 230,
+      "left": 69,
+      "right": 131
+    },
+    {
+      "top": 19,
+      "bottom": 230,
+      "left": 66,
+      "right": 120
+    },
+    {
+      "top": 19,
+      "bottom": 230,
+      "left": 63,
+      "right": 120
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 43,
+      "right": 129
+    },
+    {
+      "top": 21,
+      "bottom": 227,
+      "left": 33,
+      "right": 133
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 26,
+      "right": 138
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 28,
+      "right": 138
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 32,
+      "right": 138
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 39,
+      "right": 138
+    },
+    {
+      "top": 23,
+      "bottom": 227,
+      "left": 48,
+      "right": 138
+    },
+    {
+      "top": 24,
+      "bottom": 227,
+      "left": 54,
+      "right": 138
+    },
+    {
+      "top": 24,
+      "bottom": 227,
+      "left": 59,
+      "right": 138
+    },
+    {
+      "top": 24,
+      "bottom": 230,
+      "left": 64,
+      "right": 138
+    },
+    {
+      "top": 25,
+      "bottom": 232,
+      "left": 71,
+      "right": 138
+    },
+    {
+      "top": 25,
+      "bottom": 235,
+      "left": 74,
+      "right": 138
+    },
+    {
+      "top": 25,
+      "bottom": 236,
+      "left": 75,
+      "right": 138
+    },
+    {
+      "top": 25,
+      "bottom": 238,
+      "left": 76,
+      "right": 146
+    },
+    {
+      "top": 26,
+      "bottom": 240,
+      "left": 76,
+      "right": 151
+    },
+    {
+      "top": 26,
+      "bottom": 241,
+      "left": 75,
+      "right": 153
+    },
+    {
+      "top": 26,
+      "bottom": 241,
+      "left": 73,
+      "right": 153
+    },
+    {
+      "top": 27,
+      "bottom": 241,
+      "left": 71,
+      "right": 153
+    },
+    {
+      "top": 28,
+      "bottom": 241,
+      "left": 68,
+      "right": 153
+    },
+    {
+      "top": 28,
+      "bottom": 241,
+      "left": 64,
+      "right": 153
+    },
+    {
+      "top": 29,
+      "bottom": 241,
+      "left": 61,
+      "right": 153
+    },
+    {
+      "top": 29,
+      "bottom": 241,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 30,
+      "bottom": 241,
+      "left": 58,
+      "right": 153
+    },
+    {
+      "top": 30,
+      "bottom": 241,
+      "left": 57,
+      "right": 153
+    },
+    {
+      "top": 30,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 31,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 31,
+      "bottom": 241,
+      "left": 55,
+      "right": 153
+    },
+    {
+      "top": 31,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 32,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 32,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 33,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 34,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 35,
+      "bottom": 241,
+      "left": 57,
+      "right": 153
+    },
+    {
+      "top": 36,
+      "bottom": 241,
+      "left": 57,
+      "right": 153
+    },
+    {
+      "top": 37,
+      "bottom": 241,
+      "left": 58,
+      "right": 153
+    },
+    {
+      "top": 38,
+      "bottom": 241,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 39,
+      "bottom": 241,
+      "left": 60,
+      "right": 153
+    },
+    {
+      "top": 41,
+      "bottom": 241,
+      "left": 60,
+      "right": 153
+    },
+    {
+      "top": 42,
+      "bottom": 241,
+      "left": 60,
+      "right": 153
+    },
+    {
+      "top": 43,
+      "bottom": 241,
+      "left": 60,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 46,
+      "bottom": 241,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 47,
+      "bottom": 241,
+      "left": 59,
+      "right": 153
+    },
+    {
+      "top": 47,
+      "bottom": 241,
+      "left": 58,
+      "right": 153
+    },
+    {
+      "top": 48,
+      "bottom": 241,
+      "left": 58,
+      "right": 153
+    },
+    {
+      "top": 48,
+      "bottom": 241,
+      "left": 57,
+      "right": 153
+    },
+    {
+      "top": 48,
+      "bottom": 241,
+      "left": 57,
+      "right": 153
+    },
+    {
+      "top": 48,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 48,
+      "bottom": 241,
+      "left": 56,
+      "right": 153
+    },
+    {
+      "top": 47,
+      "bottom": 241,
+      "left": 55,
+      "right": 153
+    },
+    {
+      "top": 47,
+      "bottom": 241,
+      "left": 55,
+      "right": 153
+    },
+    {
+      "top": 47,
+      "bottom": 241,
+      "left": 54,
+      "right": 153
+    },
+    {
+      "top": 46,
+      "bottom": 241,
+      "left": 53,
+      "right": 153
+    },
+    {
+      "top": 46,
+      "bottom": 241,
+      "left": 52,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 51,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 50,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 49,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 48,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 48,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 47,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 46,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 46,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 44,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    },
+    {
+      "top": 45,
+      "bottom": 241,
+      "left": 45,
+      "right": 153
+    }
+  ],
+  "camera": {
+    "from": [
+      6.148,
+      -7.999,
+      6.65
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.9
+    ],
+    "ortho_scale": 2.0056,
+    "elevation_deg": 30.54,
+    "px_per_m": 127.64
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 20 samples, film transparent",
+  "source": "Renderpeople licensed model Nathan rendered; raw 3D data private",
+  "sha256": "1884372b94e8b01b8c65076cdbc35ee366cb6f27d7ac88892279e929405e3417",
+  "seat_anchor": [
+    80.8,
+    145.4
+  ],
+  "motion": "Walk 1\u201380; two turn steps 81\u2013106; planted-foot sit 107\u2013142; supported rest 143\u2013160.",
+  "contact_validation": {
+    "person": "Nathan",
+    "initial_sole_z": {
+      "l": 7.43541861414343e-09,
+      "r": 0.021459403283425493
+    },
+    "turn_start_soles": {
+      "l": 0.037688293619676655,
+      "r": 0.010988698743070742
+    },
+    "walk_support_correction_m": 0.010988698743070742,
+    "sole_checks": [
+      {
+        "frame": 80,
+        "soles": {
+          "l": 0.026699607665313128,
+          "r": -2.6289935940032594e-11
+        }
+      },
+      {
+        "frame": 81,
+        "soles": {
+          "l": 0.04428760958389223,
+          "r": 5.986664425739613e-08
+        }
+      },
+      {
+        "frame": 82,
+        "soles": {
+          "l": 0.0602289114359149,
+          "r": 1.6895213315437207e-07
+        }
+      },
+      {
+        "frame": 83,
+        "soles": {
+          "l": 0.07354855684898556,
+          "r": 2.057541503856699e-07
+        }
+      },
+      {
+        "frame": 84,
+        "soles": {
+          "l": 0.08360992511493717,
+          "r": 1.4086051517477743e-07
+        }
+      },
+      {
+        "frame": 85,
+        "soles": {
+          "l": 0.0016496899864596268,
+          "r": 1.7051172837481005e-07
+        }
+      },
+      {
+        "frame": 86,
+        "soles": {
+          "l": 0.00022143292129709474,
+          "r": 4.73416730123466e-08
+        }
+      },
+      {
+        "frame": 87,
+        "soles": {
+          "l": 0.0002215214723135725,
+          "r": 1.4041842065666554e-07
+        }
+      },
+      {
+        "frame": 88,
+        "soles": {
+          "l": 1.285433105964462e-07,
+          "r": 0.0006377089058770234
+        }
+      },
+      {
+        "frame": 89,
+        "soles": {
+          "l": 4.175229731395724e-08,
+          "r": 0.0006376210819611511
+        }
+      },
+      {
+        "frame": 90,
+        "soles": {
+          "l": 0.00022145391488946273,
+          "r": 8.20175306039117e-08
+        }
+      },
+      {
+        "frame": 91,
+        "soles": {
+          "l": 0.013909925151057302,
+          "r": 1.3898829684388936e-07
+        }
+      },
+      {
+        "frame": 92,
+        "soles": {
+          "l": 0.013942936645031226,
+          "r": 3.1188300969597904e-08
+        }
+      },
+      {
+        "frame": 93,
+        "soles": {
+          "l": -1.0399292924706538e-07,
+          "r": 1.5562334421820312e-07
+        }
+      },
+      {
+        "frame": 94,
+        "soles": {
+          "l": -1.1031091602664578e-07,
+          "r": 0.00412715824891817
+        }
+      },
+      {
+        "frame": 95,
+        "soles": {
+          "l": -7.963511049896566e-08,
+          "r": 0.004127182786975235
+        }
+      },
+      {
+        "frame": 96,
+        "soles": {
+          "l": -1.2207400971325777e-07,
+          "r": 0.009697229772281601
+        }
+      },
+      {
+        "frame": 97,
+        "soles": {
+          "l": -9.842883182814566e-08,
+          "r": 0.06435339201081716
+        }
+      },
+      {
+        "frame": 98,
+        "soles": {
+          "l": -4.9954023174925144e-08,
+          "r": 0.0739125553170929
+        }
+      },
+      {
+        "frame": 99,
+        "soles": {
+          "l": -1.5332515237997946e-07,
+          "r": 0.0794589634525999
+        }
+      },
+      {
+        "frame": 100,
+        "soles": {
+          "l": -8.859426908064405e-08,
+          "r": 0.07986729839659898
+        }
+      },
+      {
+        "frame": 101,
+        "soles": {
+          "l": -1.6551274761855694e-07,
+          "r": 0.0741551543614602
+        }
+      },
+      {
+        "frame": 102,
+        "soles": {
+          "l": -1.3085815116914423e-07,
+          "r": 0.06445033488385166
+        }
+      },
+      {
+        "frame": 103,
+        "soles": {
+          "l": -1.6623793955977684e-07,
+          "r": 0.05137230084472366
+        }
+      },
+      {
+        "frame": 104,
+        "soles": {
+          "l": -1.4231770668199362e-07,
+          "r": 0.03564412363148256
+        }
+      },
+      {
+        "frame": 105,
+        "soles": {
+          "l": -4.012766507272003e-08,
+          "r": 0.018151818335592595
+        }
+      },
+      {
+        "frame": 106,
+        "soles": {
+          "l": -3.816400104272866e-08,
+          "r": 4.295488973543593e-08
+        }
+      },
+      {
+        "frame": 118,
+        "soles": {
+          "l": -1.0616851178757436e-07,
+          "r": 1.5138009959447807e-07
+        }
+      },
+      {
+        "frame": 130,
+        "soles": {
+          "l": 5.6135195825035566e-08,
+          "r": 1.4202244502659056e-07
+        }
+      },
+      {
+        "frame": 142,
+        "soles": {
+          "l": 8.37293436251052e-08,
+          "r": -5.926520513233058e-08
+        }
+      },
+      {
+        "frame": 160,
+        "soles": {
+          "l": 8.37293436251052e-08,
+          "r": -5.926520513233058e-08
+        }
+      }
+    ],
+    "max_planted_foot_matrix_difference": 2.086162567138672e-07,
+    "max_planted_ankle_error_m": 2.981163415870451e-07,
+    "plant_frame": 106,
+    "sit_end_frame": 142,
+    "final_hip": [
+      0.0,
+      1.0658141036401503e-14,
+      0.540283203125
+    ],
+    "final_ankles": {
+      "l": [
+        0.5766981840133667,
+        -0.0545782744884491,
+        0.0941343903541565
+      ],
+      "r": [
+        0.21458125114440918,
+        -0.3003828525543213,
+        0.103922039270401
+      ]
+    }
+  },
+  "stride_calibration": {
+    "retarget_leg_scale": 1,
+    "source_px_per_m": 48.78,
+    "travel": [
+      -189.189,
+      -21.829
+    ],
+    "position": [
+      1163.189,
+      729.829
+    ],
+    "final_hip": [
+      974,
+      708
+    ],
+    "max_support_sole_z_m": 2.057541503856699e-07,
+    "min_support_sole_z_m": -1.6623793955977684e-07,
+    "max_planted_ankle_error_m": 2.981163415870451e-07,
+    "max_planted_foot_matrix_difference": 2.086162567138672e-07,
+    "strip_sha256": "1884372b94e8b01b8c65076cdbc35ee366cb6f27d7ac88892279e929405e3417",
+    "strip_size": [
+      30720,
+      256
+    ]
+  }
+}
