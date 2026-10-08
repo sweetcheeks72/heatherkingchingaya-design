@@ -1,0 +1,236 @@
+{
+  "file": "nathan-walk-strip.png",
+  "frame_count": 32,
+  "frame_width": 192,
+  "frame_height": 256,
+  "strip_width": 6144,
+  "strip_height": 256,
+  "fps": 30.0,
+  "source_frames": [
+    10,
+    41
+  ],
+  "clip_seconds": 1.0667,
+  "stride_m_per_clip": 1.3401,
+  "body": {
+    "top": 15,
+    "bottom": 240,
+    "left": 25,
+    "right": 166
+  },
+  "visible_body_height": 226,
+  "foot_anchor": 241,
+  "frames": [
+    {
+      "top": 18,
+      "bottom": 238,
+      "left": 36,
+      "right": 149
+    },
+    {
+      "top": 18,
+      "bottom": 240,
+      "left": 32,
+      "right": 146
+    },
+    {
+      "top": 18,
+      "bottom": 239,
+      "left": 31,
+      "right": 141
+    },
+    {
+      "top": 17,
+      "bottom": 239,
+      "left": 31,
+      "right": 135
+    },
+    {
+      "top": 17,
+      "bottom": 238,
+      "left": 34,
+      "right": 130
+    },
+    {
+      "top": 17,
+      "bottom": 235,
+      "left": 38,
+      "right": 125
+    },
+    {
+      "top": 16,
+      "bottom": 234,
+      "left": 43,
+      "right": 120
+    },
+    {
+      "top": 16,
+      "bottom": 233,
+      "left": 49,
+      "right": 117
+    },
+    {
+      "top": 16,
+      "bottom": 233,
+      "left": 58,
+      "right": 120
+    },
+    {
+      "top": 16,
+      "bottom": 232,
+      "left": 67,
+      "right": 124
+    },
+    {
+      "top": 16,
+      "bottom": 232,
+      "left": 65,
+      "right": 126
+    },
+    {
+      "top": 16,
+      "bottom": 231,
+      "left": 61,
+      "right": 127
+    },
+    {
+      "top": 16,
+      "bottom": 229,
+      "left": 56,
+      "right": 142
+    },
+    {
+      "top": 17,
+      "bottom": 227,
+      "left": 52,
+      "right": 154
+    },
+    {
+      "top": 18,
+      "bottom": 228,
+      "left": 47,
+      "right": 163
+    },
+    {
+      "top": 19,
+      "bottom": 228,
+      "left": 42,
+      "right": 166
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 37,
+      "right": 165
+    },
+    {
+      "top": 21,
+      "bottom": 229,
+      "left": 32,
+      "right": 161
+    },
+    {
+      "top": 21,
+      "bottom": 229,
+      "left": 28,
+      "right": 157
+    },
+    {
+      "top": 20,
+      "bottom": 229,
+      "left": 25,
+      "right": 151
+    },
+    {
+      "top": 20,
+      "bottom": 228,
+      "left": 25,
+      "right": 145
+    },
+    {
+      "top": 19,
+      "bottom": 228,
+      "left": 28,
+      "right": 140
+    },
+    {
+      "top": 18,
+      "bottom": 229,
+      "left": 32,
+      "right": 135
+    },
+    {
+      "top": 17,
+      "bottom": 229,
+      "left": 38,
+      "right": 129
+    },
+    {
+      "top": 17,
+      "bottom": 230,
+      "left": 45,
+      "right": 124
+    },
+    {
+      "top": 16,
+      "bottom": 231,
+      "left": 53,
+      "right": 121
+    },
+    {
+      "top": 16,
+      "bottom": 231,
+      "left": 63,
+      "right": 125
+    },
+    {
+      "top": 16,
+      "bottom": 232,
+      "left": 68,
+      "right": 129
+    },
+    {
+      "top": 16,
+      "bottom": 232,
+      "left": 67,
+      "right": 133
+    },
+    {
+      "top": 15,
+      "bottom": 233,
+      "left": 63,
+      "right": 137
+    },
+    {
+      "top": 16,
+      "bottom": 233,
+      "left": 58,
+      "right": 145
+    },
+    {
+      "top": 16,
+      "bottom": 234,
+      "left": 53,
+      "right": 151
+    }
+  ],
+  "facing": "image right, slightly away from the camera",
+  "camera": {
+    "from": [
+      6.053,
+      -7.973,
+      6.782
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.8999999761581421
+    ],
+    "ortho_scale": 1.9765,
+    "elevation_deg": 30.54,
+    "px_per_m": 129.52
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 24 samples, film transparent",
+  "source": "Renderpeople free model Nathan animated 003 walking (rp_nathan_animated_003_walking.fbx), rendered only; raw model not redistributed",
+  "sha256": "2939434ce2a570860681f3ee5f9107c16cfb7a94997ed8767f8529c0a233420e"
+}

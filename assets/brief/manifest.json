@@ -1,0 +1,193 @@
+{
+  "source": {
+    "library_file_id": "libfile_e844cc862b348191b169c6f8e6309df2",
+    "file_id": "file_00000000b8ac81fd877b2a3d03c0b281",
+    "file_name": "Website Details (compressed).pdf",
+    "current_version_number": 0,
+    "size_bytes": 8852034,
+    "pages": 18,
+    "sha256": "4f51f63acc04c4ca4ffca0f34f69aec5a50e4ea5455afdf6f2523f98b6dfefa1"
+  },
+  "assets": {
+    "architectural-model.webp": {
+      "page": 8,
+      "image": 1,
+      "source_sha256": "b8a293d58f2ab1a5337d98577d1564aa9f1c80053804e73a708d17fdd0b30663",
+      "sha256": "37347bcfc083275137887ade64dfb0375d15e3cb6de641cc7d3159ea41e5d957",
+      "width": 1800,
+      "height": 1092,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "sunken-living-room.webp": {
+      "page": 8,
+      "image": 2,
+      "source_sha256": "0695f12f8c5c2180531c3bd5a106d797a5928ff8408e6614b871eef183f1018c",
+      "sha256": "732783d3c2afde793a738cb70c3f77f07e2662002484923d32bc7a6b392381a3",
+      "width": 1778,
+      "height": 1312,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "color-material-study.webp": {
+      "page": 9,
+      "image": 1,
+      "source_sha256": "0ad509863cce362eb78e05090fbc2a7e9dbb25ead85505e19eb4befaebe295c2",
+      "sha256": "96a088469faebd070731c0051d9b817227c2e73b761ee47668eacb9f8939afb7",
+      "width": 1800,
+      "height": 986,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "natural-material-study.webp": {
+      "page": 9,
+      "image": 2,
+      "source_sha256": "cbb6b718ad7266550b3b4b1df056a8654a24f90968328d639fbae1e2b9c952b9",
+      "sha256": "15a3eba03ad6e8f6aad02f53289263fddf19e94f447c8dca4c316e1b9716ea7a",
+      "width": 1800,
+      "height": 966,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "dining-room.webp": {
+      "page": 10,
+      "image": 1,
+      "source_sha256": "c903cc3958b8bf28b0a151c724e96ad350b4a186915ff59961dfc0090dffb8de",
+      "sha256": "d7515be42c4c50022823d41ffc4d399b1be716455582af9e624754585495eee0",
+      "width": 1630,
+      "height": 1324,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "dining-room-detail.webp": {
+      "page": 10,
+      "image": 2,
+      "source_sha256": "6dc8bc03afeabfabb8e505f4f55a0141943585b50f810985dfbf073fd256ce23",
+      "sha256": "09ed3e2863bcf54292ecb0d9eea8ce17bbc0f56a3f3521b91ab93f613f0bfab8",
+      "width": 1800,
+      "height": 1198,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "architectural-section.webp": {
+      "page": 11,
+      "image": 1,
+      "source_sha256": "994236cb530e4c22345a135574287ee2acd011cd2b08ddc998b877b676dd55a5",
+      "sha256": "a64d0bba45959aa4afe599cb3eba5802508fef4f7e7942a168962ef08ff52912",
+      "width": 1800,
+      "height": 1074,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "hospitality-elevation.webp": {
+      "page": 11,
+      "image": 2,
+      "source_sha256": "9d8cd39e3af4598ae457aef0a171f67f10d73c52f0319d1649878f47f959c672",
+      "sha256": "8f8fdf1fb80d08ea09d3b2c47e28da72c8d6c4f96a586473d037a0352503c51b",
+      "width": 646,
+      "height": 414,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "hospitality-plan.webp": {
+      "page": 12,
+      "image": 1,
+      "source_sha256": "c14216d794d22d6207d8ed84ed7a35fc5af95853b290a9fe3aeb559f6c87aa6a",
+      "sha256": "aff82f790196f928ce9b38afc5450983ed7db41b470c5641636ad8fa56752822",
+      "width": 1432,
+      "height": 934,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "lighting-elevation.webp": {
+      "page": 12,
+      "image": 2,
+      "source_sha256": "2d6c39e188f77c4ef6d82f35d505873540685f48320520486243c46df310f59e",
+      "sha256": "8418b12e91deb51d482ee301074359daddf7da8f65b48cfdbb34da1c2a458539",
+      "width": 714,
+      "height": 410,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "bedroom-terrace.webp": {
+      "page": 13,
+      "image": 1,
+      "source_sha256": "d7c53b596b13fe8ad28d9a6cbfe36ea074bc15fccef435211249cf03bd97df45",
+      "sha256": "1df6949e6ec3a388d0d33849187dd80825fdc7d9536decfb683b2a224c7d9dfc",
+      "width": 1800,
+      "height": 1020,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "bar-elevation.webp": {
+      "page": 13,
+      "image": 2,
+      "source_sha256": "b2650b11fae870d993d3806db26390459e4435c4372ab37fdcccc9e73b3c9b2f",
+      "sha256": "7bf79836dc5743ee0a60e1670fb10aea3fd78972fdf78fabb16e803ee4e65349",
+      "width": 1800,
+      "height": 637,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "dining-elevation.webp": {
+      "page": 13,
+      "image": 3,
+      "source_sha256": "432da436ce2f094f5fe2e0071546244419055b6f97667872ba0d17a912a49874",
+      "sha256": "d6549276f1cf7256b728e5e02cb390b14e2d9adb8fcdee6b8a3aca6db775f917",
+      "width": 1800,
+      "height": 488,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "bedroom-artwork.webp": {
+      "page": 14,
+      "image": 1,
+      "source_sha256": "47ff0cb3d2fd40a13ebb31fd06134b3b67e3466dec6d4b4c0603feee930f92ef",
+      "sha256": "96fceca283d5f7ed2d5a179a2ec9442f78aa0acacefeecab6784b2fd1ac4507f",
+      "width": 1390,
+      "height": 1010,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "bedroom-warm-light.webp": {
+      "page": 14,
+      "image": 2,
+      "source_sha256": "d00fe91d1fbdde807a01c3bb27926f43a8379473d2d1a1a19eaa6a1c1aca78d5",
+      "sha256": "5271e3722bed9d91b5c8bfb7c8779982bcba9b6a9d721dc0df7963f7d24de00b",
+      "width": 1488,
+      "height": 976,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "living-room.webp": {
+      "page": 15,
+      "image": 1,
+      "source_sha256": "a51d3fbd2c4b6b621f393d5ba313f9302520bf71eff980bad45d2beb2fa9ddba",
+      "sha256": "53e4d831eed4c9270387ab77897b699dabfd74830a9ff598caa34a9d9c0e9fef",
+      "width": 1800,
+      "height": 1272,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "living-room-moodboard.webp": {
+      "page": 16,
+      "image": 1,
+      "source_sha256": "5ba3fd0a69d7da07d26668a51e9e96466a73bee15959789f6b325687468be2d5",
+      "sha256": "cd08878ad0c3caa20ad6e0a05c57355d78d2c5807212ad5aafc4d7e8cbd76e61",
+      "width": 1800,
+      "height": 1267,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "bathroom.webp": {
+      "page": 16,
+      "image": 2,
+      "source_sha256": "923263f704eb82a14c3840fe15074f59c947af5d435eb92eea164a9a5db240d9",
+      "sha256": "124eced56cb2489232ad989f0c914e6ab515ee23b273d772d8129e5031cef571",
+      "width": 1204,
+      "height": 854,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "monochrome-moodboard.webp": {
+      "page": 17,
+      "image": 1,
+      "source_sha256": "09b11d51d10b417f07334f6dc77aceb05e9e6adbad83214e7fda890e03f55a92",
+      "sha256": "96a0d7934170602ba2d39180b351b32bb833bf943663a7a7cf368bc22d7cd69f",
+      "width": 1800,
+      "height": 1108,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    },
+    "monochrome-dining-room.webp": {
+      "page": 17,
+      "image": 2,
+      "source_sha256": "4a04444584fa8f2f688e3664e186ba626fd54799b51fb83b8fb6e4d038576828",
+      "sha256": "ef17518ae034cc898c6b15142f7c7c7d258900fa4768517bc57639904447ba27",
+      "width": 1786,
+      "height": 1288,
+      "operation": "PDF embedded image extraction; proportional resize if over 1800px; WebP conversion, no visual retouching"
+    }
+  }
+}

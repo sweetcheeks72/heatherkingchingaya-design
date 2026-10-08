@@ -1,0 +1,641 @@
+{
+  "file": "nathan-seated-talk-left.png",
+  "person": "Nathan",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 11.428571428571429,
+  "clip_seconds": 8.4,
+  "body": {
+    "top": 48,
+    "bottom": 460,
+    "left": 78,
+    "right": 241
+  },
+  "visible_body_height": 413,
+  "foot_anchor": 461,
+  "ground_anchor": [
+    146.2,
+    433.6
+  ],
+  "frames": [
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 239
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 239
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 239
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 239
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 239
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 460,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 48,
+      "bottom": 460,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 460,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 460,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 460,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 49,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 50,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 51,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 52,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 52,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 53,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 53,
+      "bottom": 459,
+      "left": 78,
+      "right": 240
+    },
+    {
+      "top": 53,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 53,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 53,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    },
+    {
+      "top": 54,
+      "bottom": 459,
+      "left": 78,
+      "right": 241
+    }
+  ],
+  "camera": {
+    "from": [
+      2.254,
+      -8.023,
+      3.22
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.7
+    ],
+    "ortho_scale": 1.887,
+    "elevation_deg": 17.03,
+    "px_per_m": 254.37
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Nathan rendered; raw 3D data private",
+  "sha256": "f0576b4f89c3235914cf3f923167439c2676b9fc747de2c33301489ccd717698",
+  "seat_anchor": [
+    172.9,
+    270.4
+  ],
+  "lighting": {
+    "key": [
+      1,
+      0.95,
+      0.88
+    ],
+    "ambient": [
+      1,
+      0.88,
+      0.73
+    ],
+    "energy": 1.6,
+    "fill": 0.75,
+    "exposure": -0.2,
+    "side": -0.5
+  },
+  "pose_kind": "cafe",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}

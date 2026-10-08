@@ -1,0 +1,249 @@
+{
+  "status": "NOT UPLOADED",
+  "repository_visibility": "PUBLIC",
+  "terms_url": "https://renderpeople.com/general-terms-and-conditions/",
+  "checked_on": "2026-10-08",
+  "models": [
+    "Nathan animated 003 walking",
+    "Carla rigged 001",
+    "Sophia animated 003 idling (motion donor)"
+  ],
+  "source_page": "https://renderpeople.com/free-3d-people/",
+  "files": [
+    {
+      "path": "research-people/source/rp_nathan_animated_003_walking.fbx",
+      "bytes": 24646304,
+      "sha256": "7a7a65df5a382049dd6bbb2d0ecbeba260702191916fbca97de537cf952f97ec",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/rp_nathan_animated_003_walking_A.jpg",
+      "bytes": 118129,
+      "sha256": "5ec03372ff06e76d39ab777d086efcac2c748686640917154a39d3e4237eca8a",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/rp_nathan_animated_003_walking_FBX.zip",
+      "bytes": 124443363,
+      "sha256": "db4344b9ea6dd86fa8af0e0eb061d5dd77b13fe8954d4ff1ee812d1ad40be3ce",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex/rp_nathan_animated_003_dif.jpg",
+      "bytes": 22825089,
+      "sha256": "93e1541cd8f8cd8ec6dcab96c86c9eb3b11d5da8ee5cc3e86ba58448faf0a6eb",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex/rp_nathan_animated_003_gloss.jpg",
+      "bytes": 13314171,
+      "sha256": "47e3b42b61e962ad875c0b1bd46f57749e572db573a3c7f8150de5edce39ccbe",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex/rp_nathan_animated_003_mask01.jpg",
+      "bytes": 2205648,
+      "sha256": "6b61c6a336c16362f2ae3d64221da339b315647872a117da3168e2d538bfa15a",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex/rp_nathan_animated_003_mask02.jpg",
+      "bytes": 201922,
+      "sha256": "71def3bb622b4febb8f016599cc690412673d82e7f861c1a26971fc7b8e00d5e",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex/rp_nathan_animated_003_norm.jpg",
+      "bytes": 61112038,
+      "sha256": "d79cc668b0c6cf7acc3a84dc3210553d6f8e354a28fb290169866277add08a70",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex\\rp_nathan_animated_003_dif.jpg",
+      "bytes": 22825089,
+      "sha256": "93e1541cd8f8cd8ec6dcab96c86c9eb3b11d5da8ee5cc3e86ba58448faf0a6eb",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex\\rp_nathan_animated_003_gloss.jpg",
+      "bytes": 13314171,
+      "sha256": "47e3b42b61e962ad875c0b1bd46f57749e572db573a3c7f8150de5edce39ccbe",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex\\rp_nathan_animated_003_mask01.jpg",
+      "bytes": 2205648,
+      "sha256": "6b61c6a336c16362f2ae3d64221da339b315647872a117da3168e2d538bfa15a",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex\\rp_nathan_animated_003_mask02.jpg",
+      "bytes": 201922,
+      "sha256": "71def3bb622b4febb8f016599cc690412673d82e7f861c1a26971fc7b8e00d5e",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source/tex\\rp_nathan_animated_003_norm.jpg",
+      "bytes": 61112038,
+      "sha256": "d79cc668b0c6cf7acc3a84dc3210553d6f8e354a28fb290169866277add08a70",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_A.jpg",
+      "bytes": 115161,
+      "sha256": "c4e84f44626369af8a366ae5da4718ca0eb79b07b23545f96d1590eebbb2b9b3",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_FBX.zip",
+      "bytes": 178741586,
+      "sha256": "a62f27d791d47e51010182f70c58a925e5a6e7e6f80afd188a16723de2ea05b1",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_u3d.fbx",
+      "bytes": 955632,
+      "sha256": "05d1be335781d381290f06221bc98d74eefacd77805fab8a2560939b586bfc7d",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_ue4.fbx",
+      "bytes": 1154208,
+      "sha256": "9a4b6d2eec07c92eb68c3fecff2438129f984ac9ce9bf08218dcd5e977402c08",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_yup_a.fbx",
+      "bytes": 22686320,
+      "sha256": "e78bc118e14187a4ca55e4a4ffad3920914572162a1c8a157a12f474fdeb94fd",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_yup_t.fbx",
+      "bytes": 22684912,
+      "sha256": "62a979b44296535bb9d8adb154ada3ce744df50157acad697401b2e806762c10",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_zup_a.fbx",
+      "bytes": 22686080,
+      "sha256": "c646af5d69b7e0d2139d61771763552c9a0c2f8b1bf27de9c27638c6a6e5f870",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/rp_carla_rigged_001_zup_t.fbx",
+      "bytes": 22684064,
+      "sha256": "3888bf7420d69bd8f899d7f985a8ed5978adb1a31d9c4c0e548e0939849da4d5",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex/rp_carla_rigged_001_dif.jpg",
+      "bytes": 21797617,
+      "sha256": "7fa4f76d8843f83b3719f03d92b9d478f410efb675d45c32a82774e9ef6163b0",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex/rp_carla_rigged_001_gloss.jpg",
+      "bytes": 8532957,
+      "sha256": "a0a59bfa6079e2dbb6d63bd3035dfdc92438720ff02c648dbbeb7762b908aa6b",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex/rp_carla_rigged_001_mask01.jpg",
+      "bytes": 2340125,
+      "sha256": "da2ebc3ca3dc42e21cfeea7afa0fcec693e00758285fde990e3a994ca8b9526c",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex/rp_carla_rigged_001_mask02.jpg",
+      "bytes": 2277187,
+      "sha256": "32c0bc813d03186d92ea44e1f075fab0ca53908a4e8389919340d8dd7a3cccfc",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex/rp_carla_rigged_001_norm.jpg",
+      "bytes": 50798361,
+      "sha256": "7eee8bf0d0324a5b727ec920616ee2e36c599bd1c5904becb46921c9b5d4477c",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex\\rp_carla_rigged_001_dif.jpg",
+      "bytes": 21797617,
+      "sha256": "7fa4f76d8843f83b3719f03d92b9d478f410efb675d45c32a82774e9ef6163b0",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex\\rp_carla_rigged_001_gloss.jpg",
+      "bytes": 8532957,
+      "sha256": "a0a59bfa6079e2dbb6d63bd3035dfdc92438720ff02c648dbbeb7762b908aa6b",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex\\rp_carla_rigged_001_mask01.jpg",
+      "bytes": 2340125,
+      "sha256": "da2ebc3ca3dc42e21cfeea7afa0fcec693e00758285fde990e3a994ca8b9526c",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex\\rp_carla_rigged_001_mask02.jpg",
+      "bytes": 2277187,
+      "sha256": "32c0bc813d03186d92ea44e1f075fab0ca53908a4e8389919340d8dd7a3cccfc",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-carla/tex\\rp_carla_rigged_001_norm.jpg",
+      "bytes": 50798361,
+      "sha256": "7eee8bf0d0324a5b727ec920616ee2e36c599bd1c5904becb46921c9b5d4477c",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/rp_sophia_animated_003_idling.fbx",
+      "bytes": 10346448,
+      "sha256": "b282ee68d9c9d3ff70709e97bf5cc26b821bcb0f9cb28aae672298557eb124ca",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/rp_sophia_animated_003_idling_A.jpg",
+      "bytes": 47057,
+      "sha256": "b43202c15c8fa5bc90b42d2c67ff8ca50d484b295d4b9522b06b9d78bc436e3e",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/rp_sophia_animated_003_idling_FBX.zip",
+      "bytes": 40321042,
+      "sha256": "10323ad2fad1e09fa2af62a222371eb76e19b49b0cc35807092f2ce6e825ec18",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/tex\\rp_sophia_animated_003_dif.jpg",
+      "bytes": 6829656,
+      "sha256": "ccb0cad47ddde26e7d605b563aec0e9116b84ede69457f9ea4bf4e9573e4ee09",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/tex\\rp_sophia_animated_003_gloss.jpg",
+      "bytes": 3898111,
+      "sha256": "370723365824c74e542718df3dc3eed10512ea630a73c95f5245f2f774e4e3ba",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/tex\\rp_sophia_animated_003_mask01.jpg",
+      "bytes": 2216039,
+      "sha256": "3eab692cbd0da9ab2021215ac14eb1f0c38a933e58fbf4e0bbd7aed8d8f90365",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/tex\\rp_sophia_animated_003_mask02.jpg",
+      "bytes": 2173596,
+      "sha256": "5aaffdb3bfd1374c56327575572b2e4981cd2723e3ddd5176c8a34300e59304c",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    },
+    {
+      "path": "research-people/source-sophia/tex\\rp_sophia_animated_003_norm.jpg",
+      "bytes": 14802922,
+      "sha256": "6a27a7eb601163843ebbcd7b0b83f9ba0af313d4f82d71186619321fc736f30f",
+      "reason": "Renderpeople raw model/texture/archive data: public redistribution prohibited by terms 2.5, 4.2(b), 4.3(b)."
+    }
+  ],
+  "blend_files_present": false
+}

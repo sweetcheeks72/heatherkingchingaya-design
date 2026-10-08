@@ -1,0 +1,637 @@
+{
+  "file": "carla-standing-terrace.png",
+  "person": "Carla",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 12.0,
+  "clip_seconds": 8,
+  "body": {
+    "top": 28,
+    "bottom": 459,
+    "left": 81,
+    "right": 238
+  },
+  "visible_body_height": 432,
+  "foot_anchor": 460,
+  "ground_anchor": [
+    154.9,
+    456.3
+  ],
+  "frames": [
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 83,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 84,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 83,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 83,
+      "right": 237
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 82,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 81,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 81,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 81,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 81,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 81,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 82,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 82,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 83,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 84,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 85,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 86,
+      "right": 238
+    },
+    {
+      "top": 29,
+      "bottom": 459,
+      "left": 87,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 88,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 88,
+      "right": 238
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 89,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 90,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 90,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 90,
+      "right": 237
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 92,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 92,
+      "right": 236
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    },
+    {
+      "top": 28,
+      "bottom": 459,
+      "left": 91,
+      "right": 235
+    }
+  ],
+  "camera": {
+    "from": [
+      4.975,
+      7.521,
+      2.983
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.9
+    ],
+    "ortho_scale": 1.9104,
+    "elevation_deg": 13.11,
+    "px_per_m": 251.25
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Carla rendered; raw 3D data private",
+  "sha256": "a57cf48b23185f2173bc2130e6eafdf448126ad4ae3811d7bbc4831c418333c2",
+  "lighting": {
+    "key": [
+      1,
+      0.83,
+      0.63
+    ],
+    "ambient": [
+      0.86,
+      0.9,
+      0.93
+    ],
+    "energy": 1.4,
+    "fill": 0.6,
+    "exposure": -0.15,
+    "side": -0.8
+  },
+  "pose_kind": "terrace",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}

@@ -1,0 +1,641 @@
+{
+  "file": "nathan-seated-bedroom.png",
+  "person": "Nathan",
+  "frame_count": 96,
+  "frame_width": 320,
+  "frame_height": 480,
+  "strip_width": 30720,
+  "strip_height": 480,
+  "fps": 11.851851851851853,
+  "clip_seconds": 8.1,
+  "body": {
+    "top": 66,
+    "bottom": 460,
+    "left": 54,
+    "right": 265
+  },
+  "visible_body_height": 395,
+  "foot_anchor": 461,
+  "ground_anchor": [
+    110.7,
+    437.4
+  ],
+  "frames": [
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 66,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 67,
+      "bottom": 459,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 68,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 69,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 69,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 69,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 69,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 69,
+      "bottom": 460,
+      "left": 54,
+      "right": 263
+    },
+    {
+      "top": 70,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 70,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 70,
+      "bottom": 460,
+      "left": 54,
+      "right": 264
+    },
+    {
+      "top": 70,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 70,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    },
+    {
+      "top": 71,
+      "bottom": 460,
+      "left": 54,
+      "right": 265
+    }
+  ],
+  "camera": {
+    "from": [
+      7.904,
+      -5.135,
+      3.286
+    ],
+    "at": [
+      0.0,
+      0.0,
+      0.7
+    ],
+    "ortho_scale": 1.887,
+    "elevation_deg": 15.13,
+    "px_per_m": 254.37
+  },
+  "renderer": "Blender 4.5.14 LTS BLENDER_EEVEE_NEXT 32 samples, film transparent",
+  "source": "Renderpeople licensed model Nathan rendered; raw 3D data private",
+  "sha256": "3177f64c3f89eb0801b85791cd7e5ddcac342da7b4a412e9b3cc86999b2463a3",
+  "seat_anchor": [
+    202.1,
+    288.2
+  ],
+  "lighting": {
+    "key": [
+      1,
+      0.92,
+      0.8
+    ],
+    "ambient": [
+      0.93,
+      0.87,
+      0.76
+    ],
+    "energy": 1.7,
+    "fill": 0.7,
+    "exposure": -0.1,
+    "side": -0.8
+  },
+  "pose_kind": "bedroom",
+  "timing": "Smooth low gesture where appropriate, captured quiet motion, final eight frames held."
+}
